@@ -3567,6 +3567,15 @@ h3 {
 }
 
 /* line 58, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_donation.scss */
+.make_donation_area .donation_widget {
+  text-align: center;
+}
+
+.make_donation_area .donation_widget dbox-widget {
+  display: inline-block;
+  margin: 0 auto;
+}
+
 .make_donation_area .donation_form .input_field .input-group {
   width: 100%;
   border: 1px solid #1E6F5C;
