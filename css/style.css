@@ -338,6 +338,14 @@ h3 {
   padding-top: 120px;
 }
 
+/* Ensure logo doesn't scale beyond header on large screens */
+.main-header-area .logo img {
+  height: 60px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+}
+
 @media (max-width: 767px) {
   /* line 213, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_theme-default.scss */
   .pt-120 {
