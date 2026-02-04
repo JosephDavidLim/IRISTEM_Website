@@ -339,8 +339,20 @@ h3 {
 }
 
 /* Ensure logo doesn't scale beyond header on large screens */
+.main-header-area .logo {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+}
+
+.main-header-area .logo a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .main-header-area .logo img {
-  height: 60px;
+  height: 70%;
   width: auto;
   max-width: 220px;
   object-fit: contain;
@@ -1096,7 +1108,11 @@ h3 {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  padding: 20px 35px;
+  --header-height: 60px;
+  height: var(--header-height);
+  padding: 0 35px;
+  display: flex;
+  align-items: center;
   position: relative;
   z-index: 999;
   left: 0;
@@ -1109,7 +1125,8 @@ h3 {
   .main-header-area {
     right: 0;
     left: 0;
-    padding: 12px 15px;
+    --header-height: 52px;
+    padding: 0 15px;
   }
 }
 
@@ -1118,7 +1135,8 @@ h3 {
   .main-header-area {
     right: 0;
     left: 0;
-    padding: 12px 20px;
+    --header-height: 56px;
+    padding: 0 20px;
   }
 }
 
@@ -1187,7 +1205,10 @@ h3 {
 /* line 90, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
 .main-header-area .Appointment .book_btn a {
   background: #fff;
-  padding: 12px 26px;
+  height: calc(var(--header-height) * 0.7);
+  padding: 0 26px;
+  display: inline-flex;
+  align-items: center;
   font-size: 16px;
   font-weight: 600;
   color: #222;
@@ -1200,7 +1221,7 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 90, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
   .main-header-area .Appointment .book_btn a {
-    padding: 12px 20px;
+    padding: 0 20px;
   }
 }
 
@@ -1212,7 +1233,7 @@ h3 {
 
 /* line 108, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
 .main-header-area .main-menu {
-  padding: 12px 0;
+  padding: 0;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
