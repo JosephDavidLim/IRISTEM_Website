@@ -345,12 +345,6 @@ h3 {
   align-items: center;
 }
 
-.main-header-area .logo a {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
 .main-header-area .logo img {
   height: 70%;
   width: auto;
