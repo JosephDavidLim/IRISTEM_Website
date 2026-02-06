@@ -14,6 +14,17 @@ $(window).on('scroll', function () {
 
 
 $(document).ready(function(){
+  // Read more toggle for reson cards
+  $('.read_more[data-toggle="more"]').on('click', function (e) {
+    e.preventDefault();
+    var $link = $(this);
+    var $card = $link.closest('.single_reson');
+    if (!$card.length) return;
+    var expanded = $card.toggleClass('expanded').hasClass('expanded');
+    $link.attr('aria-expanded', expanded ? 'true' : 'false');
+    $link.text(expanded ? 'Read Less' : 'Read More');
+  });
+
 
 // mobile_menu
 var menu = $('ul#navigation');

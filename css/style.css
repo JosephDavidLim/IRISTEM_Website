@@ -437,7 +437,7 @@ h3 {
 
 /* line 294, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_theme-default.scss */
 .mb-40 {
-  margin-bottom: 40px;
+  margin-bottom: 120px;
 }
 
 /* line 298, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_theme-default.scss */
@@ -911,7 +911,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 53, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_section_title.scss */
   .mb-100 {
-    margin-bottom: 40px;
+    margin-bottom: 120px;
   }
 }
 
@@ -923,7 +923,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 59, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_section_title.scss */
   .mb-55 {
-    margin-bottom: 40px;
+    margin-bottom: 120px;
   }
 }
 
@@ -1564,7 +1564,7 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   color: #FFFFFF;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   margin-top: 10px;
 }
 
@@ -2236,7 +2236,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 16, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
-    margin-bottom: 40px;
+    margin-bottom: 120px;
   }
 }
 
@@ -2645,7 +2645,7 @@ h3 {
   color: #222222;
   font-weight: 100;
   line-height: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 110px;
 }
 
 /* line 58, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
@@ -2867,6 +2867,9 @@ h3 {
   position: relative;
 }
 
+}
+
+
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
   .reson_area .single_reson {
@@ -2877,7 +2880,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
   .reson_area .single_reson {
-    margin-bottom: 40px;
+    margin-bottom: 120px;
   }
 }
 
@@ -2925,7 +2928,9 @@ h3 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   padding: 47px 40px 33px 40px;
   left: 46px;
+  overflow: visible;
 }
+  overflow: visible;
 
 /* line 34, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
 .reson_area .single_reson .help_content h4 {
@@ -2938,6 +2943,29 @@ h3 {
   margin-top: 21px;
   margin-bottom: 30px;
 }
+
+.reson_area .single_reson .help_content .more-panel {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 0 40px 30px 40px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 0 0 7px 7px;
+}
+
+.reson_area .single_reson.expanded .help_content .more-panel {
+  display: block;
+}
+
+
+.reson_area .single_reson.expanded .help_content {
+  border-radius: 7px 7px 0 0;
+}
+
+
 
 /* line 42, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
 .reson_area .single_reson .help_content .read_more {
@@ -5184,7 +5212,7 @@ h6 {
 ============================================================================================ */
 /* line 5, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
 .latest-blog-area .area-heading {
-  margin-bottom: 70px;
+  margin-bottom: 110px;
 }
 
 /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
@@ -5680,7 +5708,7 @@ h6 {
 /*============ blog_left_sidebar css ==============*/
 /* line 525, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
 .blog_item {
-  margin-bottom: 50px;
+  margin-bottom: 110px;
 }
 
 /* line 529, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
@@ -5823,7 +5851,7 @@ h6 {
 /* line 647, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
 .blog_right_sidebar .widget_title {
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
 }
 
 /* line 652, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
@@ -6476,7 +6504,7 @@ h6 {
 
 /* line 1420, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog.scss */
 .comment-form h4 {
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   font-size: 18px;
   line-height: 22px;
 }
@@ -6602,7 +6630,7 @@ h6 {
 /* line 19, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_blog_part.scss */
 .blog_part .blog_right_sidebar .widget_title {
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
   font-style: inherit !important;
 }
 
