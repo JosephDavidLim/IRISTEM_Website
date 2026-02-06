@@ -2284,6 +2284,15 @@ h3 {
   margin-bottom: 35px;
 }
 
+.footer .footer_top .footer_widget .footer_logo img {
+  height: 80px;
+  width: auto;
+  max-width: 260px;
+  object-fit: contain;
+  display: inline-block;
+}
+
+
 @media (max-width: 767px) {
   /* line 54, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget .footer_logo {
