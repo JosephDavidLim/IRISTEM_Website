@@ -140,7 +140,11 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="form-contact contact_form" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" id="contactForm" novalidate="novalidate">
+                            <input type="hidden" name="form-name" value="contact">
+                            <div class="d-none">
+                                <label>Don't fill this out if you're human: <input name="bot-field"></label>
+                            </div>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -339,12 +343,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/gijgo.min.js"></script>
     
-        <!--contact js-->
-        <script src="js/contact.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/mail-script.js"></script>
     
         <script src="js/main.js"></script>
         <script>
