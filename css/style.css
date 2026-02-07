@@ -2865,6 +2865,7 @@ h3 {
 /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
 .reson_area .single_reson {
   position: relative;
+  z-index: 2;
 }
 
 }
@@ -2931,6 +2932,7 @@ h3 {
   overflow: visible;
 }
   overflow: visible;
+  overflow: visible;
 
 /* line 34, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_reason.scss */
 .reson_area .single_reson .help_content h4 {
@@ -2955,6 +2957,7 @@ h3 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 0 0 7px 7px;
 }
+  z-index: 5;
 
 .reson_area .single_reson.expanded .help_content .more-panel {
   display: block;
