@@ -2562,7 +2562,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/gallery/about.png);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
@@ -2573,6 +2573,9 @@ h3 {
 /* line 7, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
   background-image: url(../img/banner/bradcam3.png);
+}
+.breadcam_bg_about {
+  background-image: url(../img/gallery/about.png);
 }
 
 /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_bradcam.scss */
@@ -3019,7 +3022,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
 .video_bg_1 {
-  background-image: url(../img/banner/man.png);
+  background-image: url(../img/gallery/Adyant%20Presentation.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3080,6 +3083,9 @@ h3 {
   background: #1E6F5C;
   opacity: .3;
   content: '';
+}
+.latest_activites_area .video_activite.activity_image::before {
+  display: none;
 }
 
 /* line 45, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */

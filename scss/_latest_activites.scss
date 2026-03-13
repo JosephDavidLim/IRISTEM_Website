@@ -1,5 +1,5 @@
 .video_bg_1{
-    background-image: url(../img/banner/man.png);
+    background-image: url(../img/gallery/Adyant%20Presentation.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -42,6 +42,11 @@
             content: '';
         }
     }
+    .video_activite.activity_image{
+        &::before{
+            display: none;
+        }
+    }
     .activites_info{
         padding-right: 156px;
         padding-top: 240px;
@@ -65,4 +70,3 @@
         }
     }
 }
-
