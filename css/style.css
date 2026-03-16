@@ -7152,6 +7152,54 @@ a:hover {
   color: var(--iristem-accent);
 }
 
+.footer .footer_top {
+  background: var(--iristem-primary);
+  border-top: 4px solid var(--iristem-accent);
+}
+
+.footer .footer_top .footer_widget .footer_title {
+  color: var(--iristem-accent);
+}
+
+.footer .footer_top .footer_widget p,
+.footer .footer_top .footer_widget .address_text,
+.footer .footer_top .footer_widget ul li a {
+  color: #F2F0E8;
+}
+
+.footer .footer_top .footer_widget ul li a:hover {
+  color: var(--iristem-accent);
+}
+
+.footer .copy-right_text {
+  background: var(--iristem-primary);
+}
+
+.footer .copy-right_text .copy_right {
+  color: #E0E6DE;
+}
+
+.footer .copy-right_text .copy_right a {
+  color: var(--iristem-accent);
+}
+
+.footer .socail_links ul li a {
+  background: rgba(255, 255, 255, 0.14);
+  color: #F7F6F2;
+  border-radius: 999px;
+  width: 36px;
+  line-height: 36px !important;
+}
+
+.footer .socail_links ul li a:hover {
+  background: var(--iristem-accent);
+  color: var(--iristem-primary) !important;
+}
+
+.bordered_1px {
+  border-top: 1px solid rgba(214, 168, 95, 0.35);
+}
+
 .counter_area .overlay:before {
   background: var(--iristem-primary);
 }
