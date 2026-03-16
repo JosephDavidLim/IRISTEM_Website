@@ -6996,4 +6996,183 @@ h6 {
   font-weight: 600;
 }
 
+/* IRISTEM palette overrides */
+:root {
+  --iristem-primary: #1F4D3A;
+  --iristem-secondary: #2F7A6D;
+  --iristem-secondary-dark: #256559;
+  --iristem-accent: #D6A85F;
+  --iristem-bg: #F7F6F2;
+  --iristem-card: #E8E1D4;
+  --iristem-text: #1E2523;
+  --iristem-soft: #A8C3B0;
+}
+
+body {
+  background: var(--iristem-bg);
+  color: var(--iristem-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--iristem-primary);
+}
+
+p {
+  color: var(--iristem-text);
+}
+
+a {
+  color: var(--iristem-secondary);
+}
+
+a:hover {
+  color: var(--iristem-primary);
+}
+
+.section_title h3 span::before {
+  background: var(--iristem-accent);
+}
+
+.section_title p {
+  color: var(--iristem-text);
+}
+
+.main-header-area {
+  background: var(--iristem-primary);
+}
+
+.main-header-area .main-menu ul li a {
+  color: #F7F6F2;
+}
+
+.main-header-area .main-menu ul li a:hover {
+  color: var(--iristem-accent);
+}
+
+.main-header-area .main-menu ul li .submenu {
+  background: var(--iristem-card);
+}
+
+.main-header-area .main-menu ul li .submenu li a {
+  color: var(--iristem-primary);
+}
+
+.main-header-area .main-menu ul li .submenu li:hover a {
+  color: var(--iristem-secondary);
+}
+
+.main-header-area .Appointment .book_btn a {
+  background: var(--iristem-secondary);
+  color: #F7F6F2;
+}
+
+.main-header-area .Appointment .book_btn a:hover {
+  background: var(--iristem-secondary-dark);
+  color: #F7F6F2;
+}
+
+.boxed-btn,
+.boxed-btn2,
+.boxed-btn3,
+.boxed-btn4,
+.boxed-btn5,
+.boxed-btn6 {
+  background: var(--iristem-secondary);
+  color: #F7F6F2;
+  border: 1px solid var(--iristem-secondary);
+}
+
+.boxed-btn:hover,
+.boxed-btn2:hover,
+.boxed-btn3:hover,
+.boxed-btn4:hover,
+.boxed-btn5:hover,
+.boxed-btn6:hover {
+  background: var(--iristem-secondary-dark);
+  border-color: var(--iristem-secondary-dark);
+  color: #F7F6F2;
+}
+
+.read_more::before {
+  background: var(--iristem-accent);
+}
+
+.affiliation_item {
+  color: var(--iristem-primary);
+}
+
+.reson_area .single_reson .help_content,
+.overview_timeline .timeline_content,
+.affiliation_item,
+.single_volenteer .voolenteer_info {
+  background: var(--iristem-card);
+}
+
+.overview_timeline .timeline_marker {
+  background: var(--iristem-secondary);
+  box-shadow: 0 0 0 6px rgba(47, 122, 109, 0.12);
+}
+
+.reson_area .single_reson .help_content,
+.overview_timeline .timeline_content,
+.affiliation_item {
+  border-color: var(--iristem-soft);
+}
+
+.white-bg {
+  background: var(--iristem-bg);
+}
+
+.gray-bg,
+.affiliations_area {
+  background: var(--iristem-card);
+}
+
+.make_donation_area {
+  background: var(--iristem-card);
+}
+
+.affiliations_area .affiliations_intro,
+.affiliations_area .affiliations_disclaimer {
+  color: var(--iristem-text);
+}
+
+.footer .footer_top {
+  background: var(--iristem-primary);
+}
+
+.footer .footer_top .footer_widget h3,
+.footer .footer_top .footer_widget p,
+.footer .footer_top .footer_widget .address_text,
+.footer .footer_top .footer_widget a {
+  color: #F7F6F2;
+}
+
+.footer .footer_top .footer_widget a:hover {
+  color: var(--iristem-accent);
+}
+
+.counter_area .overlay:before {
+  background: var(--iristem-primary);
+}
+
+.overlay2::before {
+  background-color: var(--iristem-primary);
+}
+
+.bradcam_area.overlay::before {
+  background: var(--iristem-primary);
+}
+
+.about_us_area .boxed-btn3 {
+  background: var(--iristem-secondary);
+  color: #F7F6F2;
+  border: 1px solid var(--iristem-secondary);
+}
+
+.about_us_area .boxed-btn3:hover {
+  background: var(--iristem-secondary-dark);
+  border-color: var(--iristem-secondary-dark);
+}
+
 /*# sourceMappingURL=style.css.map */
