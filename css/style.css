@@ -6881,4 +6881,119 @@ h6 {
   font-size: 12px;
 }
 
+/* About Us section (index) */
+.about_us_area .about_us_image {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about_us_area .about_us_image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about_us_area .boxed-btn3 {
+  background: #1E6F5C;
+  color: #fff;
+  border: 1px solid #1E6F5C;
+}
+
+.about_us_area .boxed-btn3:hover {
+  background: #145242;
+  border-color: #145242;
+}
+
+@media (max-width: 991px) {
+  .about_us_area .about_us_image {
+    margin-bottom: 24px;
+  }
+}
+
+/* Academic affiliations section (About) */
+.affiliations_area {
+  background: #f8f9fb;
+}
+
+.affiliations_area .affiliations_intro {
+  color: #5a5a5a;
+  margin-bottom: 30px;
+}
+
+.affiliation_grid .affiliation_item {
+  background: #ffffff;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  color: #1b1b1b;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+
+.affiliations_area .affiliations_disclaimer {
+  color: #6c757d;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+/* About page: avoid overlap in mission cards */
+.about_reson_area .single_reson .thum {
+  margin-right: 0;
+  padding-bottom: 0;
+}
+
+.about_reson_area .single_reson .help_content {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 20px;
+}
+
+/* Overview timeline (Our Work > Overview) */
+.overview_intro {
+  color: #5a5a5a;
+  margin-bottom: 30px;
+}
+
+.overview_timeline {
+  position: relative;
+  padding-left: 28px;
+  border-left: 2px solid #d7dee6;
+}
+
+.overview_timeline .timeline_item {
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.overview_timeline .timeline_item:last-child {
+  padding-bottom: 0;
+}
+
+.overview_timeline .timeline_marker {
+  position: absolute;
+  left: -10px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: #1E6F5C;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(30, 111, 92, 0.12);
+}
+
+.overview_timeline .timeline_content {
+  background: #ffffff;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+
+.overview_timeline .timeline_content h4 {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
