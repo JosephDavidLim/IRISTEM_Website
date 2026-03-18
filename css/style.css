@@ -7171,6 +7171,15 @@ a:hover {
   color: var(--iristem-accent);
 }
 
+.footer .footer_top .footer_widget .footer_ein {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.footer .footer_top .footer_widget .footer_ein + .socail_links {
+  margin-top: 10px;
+}
+
 .footer .copy-right_text {
   background: var(--iristem-primary);
 }
@@ -7198,6 +7207,22 @@ a:hover {
 
 .bordered_1px {
   border-top: 1px solid rgba(214, 168, 95, 0.35);
+}
+
+.contact-section .button-contactForm.boxed-btn {
+  background: var(--iristem-primary);
+  border-color: var(--iristem-primary);
+  color: #F7F6F2 !important;
+  font-weight: 600;
+  min-width: 160px;
+  box-shadow: 0 10px 24px rgba(31, 77, 58, 0.16);
+}
+
+.contact-section .button-contactForm.boxed-btn:hover,
+.contact-section .button-contactForm.boxed-btn:focus {
+  background: var(--iristem-secondary-dark);
+  border-color: var(--iristem-secondary-dark);
+  color: #F7F6F2 !important;
 }
 
 .counter_area .overlay:before {
