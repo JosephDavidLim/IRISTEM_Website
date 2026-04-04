@@ -806,6 +806,8 @@ blockquote {
 
 .donation-form {
 	text-align: center;
+	border-radius: 28px;
+	overflow: hidden;
 
 	h3 {
 		font-weight: bold;
@@ -815,6 +817,44 @@ blockquote {
 	}
 	.form-control {
 		border: 1px solid #efefef;
+	}
+}
+
+.donation-form {
+	.btn.btn-outline-primary {
+		background-color: rgba($white, .92);
+		border-color: rgba(#1E6F5C, .55);
+		color: #1E6F5C;
+		border-radius: 999px;
+		box-shadow: 0 12px 26px -20px rgba($black, .55);
+
+		&:hover {
+			background-color: $white;
+			border-color: #1E6F5C;
+			color: #1E6F5C;
+		}
+	}
+}
+
+.hero .donation-form {
+	background: linear-gradient(135deg, rgba($white, .12), rgba(#0f172a, .42));
+	border: 1px solid rgba($white, .22);
+	backdrop-filter: blur(18px);
+	-webkit-backdrop-filter: blur(18px);
+	box-shadow: 0 22px 60px -35px rgba($black, .7);
+
+	h3 {
+		color: rgba($white, .95);
+		letter-spacing: .08em;
+	}
+
+	.text-black-50 {
+		color: rgba($white, .82) !important;
+	}
+
+	.btn.btn-primary {
+		border-radius: 999px;
+		box-shadow: 0 14px 30px -18px rgba($black, .65);
 	}
 }
 
