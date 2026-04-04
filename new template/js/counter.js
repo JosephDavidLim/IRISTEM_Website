@@ -18,7 +18,8 @@ const numberWithCommas = n => {
 // The animation function, which takes an Element
 const animateCountUp = el => {
 	let frame = 0;
-	const countTo = parseInt( el.innerHTML, 10 );
+	const countTo = parseInt( el.getAttribute('data-count') || el.innerHTML, 10 );
+	const suffix = el.getAttribute('data-suffix') || '';
 	// Start the animation running 60 times per second
 	const counter = setInterval( () => {
 		frame++;
@@ -30,12 +31,13 @@ const animateCountUp = el => {
 		const currentCount = Math.round( countTo * progress );
 
 		// If the current count has changed, update the element
-		if ( parseInt( el.innerHTML, 10 ) !== currentCount ) {
-			el.innerHTML = numberWithCommas(currentCount);
+		if ( parseInt( el.textContent, 10 ) !== currentCount ) {
+			el.textContent = numberWithCommas(currentCount) + suffix;
 		}
 
 		// If we’ve reached our last frame, stop the animation
 		if ( frame === totalFrames ) {
+			el.textContent = numberWithCommas(countTo) + suffix;
 			clearInterval( counter );
 		}
 	}, frameDuration );
