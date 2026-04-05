@@ -876,12 +876,18 @@ blockquote {
 	align-items: flex-start;
 	justify-content: space-between;
 	gap: 16px;
+	min-height: 92px; // keep logo boxes aligned across cards
 }
 
 .chapter-school {
 	font-weight: 800;
 	color: #1E6F5C;
 	line-height: 1.15;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	min-height: 2.3em;
 }
 
 .chapter-location {
