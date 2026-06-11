@@ -5,14 +5,14 @@
         <title>IRISTEM | Contact</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="IRISTEM, STEM, environmental safety, education, research, nonprofit" name="keywords">
-        <meta content="IRISTEM is a student-led STEM nonprofit advancing environmental safety through education, research, and community programs." name="description">
+        <meta content="IRISTEM helps researchers translate complex STEM research into accessible, student-centered curriculum and outreach materials." name="description">
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -55,92 +55,72 @@
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand"><img src="img/iristem/logo.png" alt="IRISTEM"></a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="causes.html" class="nav-item nav-link">Causes</a>
-                        <a href="event.html" class="nav-item nav-link">Events</a>
-                        <a href="blog.html" class="nav-item nav-link">Blog</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Work</a>
                             <div class="dropdown-menu">
-                                <a href="single.html" class="dropdown-item">Detail Page</a>
-                                <a href="service.html" class="dropdown-item">What We Do</a>
-                                <a href="team.html" class="dropdown-item">Meet The Team</a>
-                                <a href="donate.html" class="dropdown-item">Donate Now</a>
-                                <a href="volunteer.html" class="dropdown-item">Become A Volunteer</a>
+                                <a href="service.html" class="dropdown-item">Broader Impacts</a>
+                                <a href="causes.html" class="dropdown-item">Research Translation</a>
+                                <a href="blog.html" class="dropdown-item">News &amp; Insights</a>
+                                <a href="single.html" class="dropdown-item">Featured Article</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+                            <div class="dropdown-menu">
+                                <a href="about.html" class="dropdown-item">About IRISTEM</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="contact.html" class="dropdown-item active">Contact</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Take Action</a>
+                            <div class="dropdown-menu">
+                                <a href="event.html" class="dropdown-item">Partner With Us</a>
+                                <a href="volunteer.html" class="dropdown-item">Volunteer</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header" class="dropdown-item" target="_blank" rel="noopener">Start a Chapter</a>
+                            </div>
+                        </div>
+                        <a href="donate.html" class="nav-item nav-link nav-donate">Donate</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Nav Bar End -->
-        
-        
-        <!-- Page Header Start -->
+
+
+<!-- Page Header Start -->
         <div class="page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Contact Us</h2>
-                    </div>
-                    <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Contact</a>
-                    </div>
-                </div>
-            </div>
+            <div class="container"><div class="row"><div class="col-12"><h1>Contact IRISTEM</h1></div><div class="col-12"><a href="index.html">Home</a><a href="contact.html">Contact</a></div></div></div>
         </div>
         <!-- Page Header End -->
-        
-        
-        <!-- Contact Start -->
+
         <div class="contact">
             <div class="container">
-                <div class="section-header text-center">
-                    <p>Get In Touch</p>
-                    <h2>Contact for any query</h2>
-                </div>
-                <div class="contact-img">
-                    <img src="img/contact.jpg" alt="Image">
-                </div>
+                <div class="section-header text-center"><p>Start a Conversation</p><h2>Partner with IRISTEM</h2></div>
+                <p class="partner-summary text-center">Researchers, universities, science organizations, educators, and youth-facing groups can contact us about curriculum development, outreach materials, workshops, and impact documentation.</p>
+                <div class="contact-img"><img src="img/iristem/work-action.jpg" alt="Students taking part in an IRISTEM STEM activity"></div>
                 <div class="contact-form">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
+                    <form name="iristem-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="iristem-contact">
+                        <p class="d-none"><label>Do not fill this out: <input name="bot-field"></label></p>
+                        <div class="control-group"><label class="sr-only" for="contact-name">Name</label><input type="text" class="form-control" id="contact-name" name="name" placeholder="Your name" required></div>
+                        <div class="control-group"><label class="sr-only" for="contact-email">Email</label><input type="email" class="form-control" id="contact-email" name="email" placeholder="Your email" required></div>
+                        <div class="control-group"><label class="sr-only" for="contact-organization">Organization</label><input type="text" class="form-control" id="contact-organization" name="organization" placeholder="Organization or school"></div>
+                        <div class="control-group"><label class="sr-only" for="contact-interest">Area of interest</label><select class="form-control" id="contact-interest" name="interest" required><option value="">How would you like to work with us?</option><option>Research or institutional partnership</option><option>School or youth outreach</option><option>Volunteer or chapter</option><option>General question</option></select></div>
+                        <div class="control-group"><label class="sr-only" for="contact-message">Message</label><textarea class="form-control" id="contact-message" name="message" placeholder="Tell us about your project or question" required></textarea></div>
+                        <div><button class="btn btn-custom" type="submit">Send Message</button></div>
+                    </form>
+                </div>
             </div>
         </div>
-        <!-- Contact End -->
 
-
-<!-- Footer Start -->
+        <!-- Footer Start -->
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -189,7 +169,7 @@
 
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
+
         <!-- Pre Loader -->
         <div id="loader" class="show">
             <div class="loader"></div>
@@ -203,7 +183,7 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/parallax/parallax.min.js"></script>
-        
+
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
