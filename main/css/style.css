@@ -3052,12 +3052,14 @@ p {
 
 .chapter-card {
     position: relative;
-    min-height: 310px;
+    min-height: 390px;
     margin-bottom: 34px;
-    padding: 34px 92px 34px 34px;
+    padding: 34px 92px 32px 34px;
+    display: flex;
+    flex-direction: column;
     background: #ffffff;
     border: 1px solid var(--style-line);
-    border-radius: 24px;
+    border-radius: 30px;
     box-shadow: var(--style-shadow);
 }
 
@@ -3097,20 +3099,45 @@ p {
     font-weight: 700;
 }
 
-.chapter-mark {
-    position: absolute;
-    right: 42px;
-    bottom: 42px;
-    left: 42px;
+.chapter-logo {
+    min-height: 140px;
+    margin: auto 8px 0;
+    padding-top: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 120px;
-    color: var(--style-primary);
+}
+
+.chapter-logo img {
+    max-width: 100%;
+    max-height: 130px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.chapter-details {
+    margin-top: 22px;
+    border-top: 1px solid var(--style-line);
+    padding-top: 16px;
+}
+
+.chapter-details summary {
+    width: fit-content;
+    color: var(--style-primary-dark);
+    cursor: pointer;
     font-family: 'Quicksand', sans-serif;
-    font-size: 58px;
+    font-size: 16px;
     font-weight: 800;
-    line-height: 1;
+}
+
+.chapter-details summary::marker {
+    color: var(--style-accent);
+}
+
+.chapter-details p {
+    margin-top: 10px;
+    font-size: 19px;
 }
 
 .about-team {
@@ -3382,7 +3409,7 @@ p {
     }
 
     .chapter-card {
-        min-height: 260px;
+        min-height: 340px;
         padding: 28px 78px 28px 28px;
     }
 
@@ -3399,11 +3426,14 @@ p {
         font-size: 18px;
     }
 
-    .chapter-mark {
-        right: 28px;
-        bottom: 30px;
-        left: 28px;
-        min-height: 88px;
-        font-size: 44px;
+    .chapter-logo {
+        min-height: 110px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 22px;
+    }
+
+    .chapter-logo img {
+        max-height: 100px;
     }
 }
