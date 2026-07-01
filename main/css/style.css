@@ -2850,23 +2850,41 @@ p {
 
 .facts {
     min-height: auto;
-    margin: 30px 0;
-    padding: 78px 0 60px;
+    margin: 18px 0 48px;
+    padding: 72px 0 68px;
     background: #ffffff !important;
+    border-top: 1px solid rgba(15, 23, 42, 0.08);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
 }
 
 .facts .section-header p {
-    color: var(--style-primary-dark);
+    color: var(--style-accent);
 }
 
 .facts .section-header h2 {
     color: var(--style-primary-dark);
 }
 
+.facts .row {
+    align-items: stretch;
+}
+
+.facts [class*="col-"] {
+    display: flex;
+}
+
 .facts .facts-item {
+    width: 100%;
+    height: 100%;
     display: block;
-    margin: 20px 0;
+    min-height: 160px;
+    margin: 0;
+    padding: 22px 18px 20px;
     text-align: center;
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.07);
+    border-radius: 16px;
+    box-shadow: none;
 }
 
 .facts .facts-item i {
@@ -2880,12 +2898,12 @@ p {
 .facts .facts-text h3,
 .facts .facts-text h3::after,
 .facts .facts-text p {
-    color: var(--style-ink);
+    color: #0f172a;
 }
 
 .facts .facts-text h3 {
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: 62px;
+    font-size: 66px;
     font-weight: 500;
 }
 
@@ -2897,7 +2915,7 @@ p {
 .facts .facts-text p {
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .causes .causes-item,
