@@ -2224,14 +2224,14 @@ a:focus {
 
 .partners-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 22px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
     align-items: stretch;
 }
 
 .partner-logo {
-    min-height: 132px;
-    padding: 24px;
+    min-height: 210px;
+    padding: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2243,7 +2243,7 @@ a:focus {
 
 .partner-logo img {
     max-width: 100%;
-    max-height: 78px;
+    max-height: 138px;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -3287,10 +3287,6 @@ p {
         font-size: 21px;
     }
 
-    .partners-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
     .service .service-item {
         min-height: auto;
     }
@@ -3368,13 +3364,13 @@ p {
     }
 
     .partner-logo {
-        min-height: 112px;
-        padding: 18px;
+        min-height: 132px;
+        padding: 22px;
         border-radius: 14px;
     }
 
     .partner-logo img {
-        max-height: 64px;
+        max-height: 86px;
     }
 
     .facts .facts-text h3 {
