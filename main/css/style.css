@@ -2610,7 +2610,7 @@ p {
 .carousel {
     margin-bottom: 70px;
     background: #ffffff;
-    height: 640px;
+    height: 720px;
     overflow: hidden;
 }
 
@@ -2623,7 +2623,7 @@ p {
 
 .carousel .carousel-item,
 .carousel .carousel-img {
-    height: 640px;
+    height: 720px;
     min-height: 0;
 }
 
@@ -3097,7 +3097,7 @@ p {
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-img {
-        height: 600px;
+        height: 660px;
     }
 
     .carousel .carousel-text h1 {
@@ -3114,7 +3114,7 @@ p {
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-img {
-        height: 570px;
+        height: 610px;
         min-height: 0;
     }
 
@@ -3146,7 +3146,7 @@ p {
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-img {
-        height: 520px;
+        height: 560px;
         min-height: 0;
     }
 
