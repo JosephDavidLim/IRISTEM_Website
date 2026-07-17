@@ -51,7 +51,23 @@
         </div>
         <!-- Top Bar End -->
 
-        <!-- Nav Bar Start -->
+
+<!-- This pulls the navbar from navbar.html and inserts it here. Credit to Gemini. -->
+<div id="navbar-inserts-here"></div>
+<script>
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            let parser = new DOMParser();
+            let doc = parser.parseFromString(data, 'text/html');
+            
+            let section = doc.querySelector('#navbar');
+            
+            document.getElementById('navbar-inserts-here').innerHTML = section.innerHTML;
+        });
+</script>
+
+        <!-- Nav Bar Start 
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand"><img src="img/iristem/logo.png" alt="IRISTEM"></a>
@@ -92,7 +108,7 @@
                 </div>
             </div>
         </div>
-        <!-- Nav Bar End -->
+        Nav Bar End -->
 
 
 <!-- Page Header Start -->
