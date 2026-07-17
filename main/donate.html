@@ -1,134 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>IRISTEM | Donate</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="IRISTEM, STEM, environmental safety, education, research, nonprofit" name="keywords">
-        <meta content="IRISTEM helps researchers translate complex STEM research into accessible, student-centered curriculum and outreach materials." name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>IRISTEM | Donate</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="IRISTEM, STEM, environmental safety, education, research, nonprofit"
+      name="keywords"
+    />
+    <meta
+      content="IRISTEM helps researchers translate complex STEM research into accessible, student-centered curriculum and outreach materials."
+      name="description"
+    />
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-    <body>
-<!-- This pulls the navbar from navbar.html and inserts it here. Credit to Gemini. -->
-<div id="navbar-inserts-here"></div>
-<script>
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => {
-            let parser = new DOMParser();
-            let doc = parser.parseFromString(data, 'text/html');
-            
-            let section = doc.querySelector('#navbar');
-            
-            document.getElementById('navbar-inserts-here').innerHTML = section.innerHTML;
+  <body>
+    <!-- This pulls the navbar from navbar.html and inserts it here. Credit to Gemini. -->
+    <div id="navbar-inserts-here"></div>
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          let parser = new DOMParser();
+          let doc = parser.parseFromString(data, "text/html");
+          let section = doc.querySelector("#navbar");
+          document.getElementById("navbar-inserts-here").innerHTML =
+            section.innerHTML;
         });
-</script>
+    </script>
 
-
-<!-- Page Header Start -->
-        <div class="page-header">
-            <div class="container"><div class="row"><div class="col-12"><h1>Support IRISTEM</h1></div><div class="col-12"><a href="index.html">Home</a><a href="donate.html">Donate</a></div></div></div>
-        </div>
-        <!-- Page Header End -->
-
-        <div class="donate" data-parallax="scroll" data-image-src="img/iristem/donate.jpg">
-            <div class="container"><div class="row align-items-center">
-                <div class="col-lg-7"><div class="donate-content"><div class="section-header"><p>Support IRISTEM</p><h2>Help research reach the next generation</h2></div><div class="donate-text"><p>Your support helps a student-led 501(c)(3) nonprofit create accessible STEM curriculum, outreach materials, and learning opportunities for younger students.</p><p>Contributions support educational resource development, student programs, and community outreach.</p></div></div></div>
-                <div class="col-lg-5">
-                    <div class="donorbox-wrap donate-widget-wrap">
-                        <script type="module" src="https://donorbox.org/widgets.js" async></script>
-                        <dbox-widget campaign="iris-tem" type="donation_form" enable-auto-scroll="true"></dbox-widget>
-                    </div>
-                </div>
-            </div></div>
-        </div>
-
-        <!-- Footer Start -->
-<div class="footer">
-    <div class="container">
+    <!-- Page Header Start -->
+    <div class="page-header">
+      <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-contact">
-                    <img class="footer-logo" src="img/iristem/footer-logo.png" alt="IRISTEM logo">
-                    <p>Student-led STEM nonprofit advancing environmental safety through education, research, and community-based programs.</p>
-                    <p><i class="fa fa-phone-alt"></i><a href="tel:14084822895">(408) 482-2895</a></p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:team@iristem.org">team@iristem.org</a></p>
-                    <div class="footer-social">
-                        <a class="btn btn-custom" href="https://www.instagram.com/iris_stem/" target="_blank" rel="noopener" aria-label="IRISTEM on Instagram"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-custom" href="https://www.linkedin.com/company/iristem/" target="_blank" rel="noopener" aria-label="IRISTEM on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-link">
-                    <h2>Explore</h2>
-                    <a href="about.html">About Us</a>
-                    <a href="chapters.html">Chapters</a>
-                    <a href="causes.html">Our Work</a>
-                    <a href="blog.html">News</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-link">
-                    <h2>Get Involved</h2>
-                    <a href="donate.html">Donate</a>
-                    <a href="volunteer.html">Volunteer</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header" target="_blank" rel="noopener">Start a Chapter</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Svd1oJZq6-0HDybSGOanQmP0HwVrQAKguL8I0DltxocLtw/viewform?usp=publish-editor" target="_blank" rel="noopener">Join Us</a>
-                </div>
-            </div>
+          <div class="col-12"><h1>Support IRISTEM</h1></div>
+          <div class="col-12">
+            <a href="index.html">Home</a><a href="donate.html">Donate</a>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="container copyright">
+    <!-- Page Header End -->
+
+    <div
+      class="donate"
+      data-parallax="scroll"
+      data-image-src="img/iristem/donate.jpg"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="donate-content">
+              <div class="section-header">
+                <p>Support IRISTEM</p>
+                <h2>Help research reach the next generation</h2>
+              </div>
+              <div class="donate-text">
+                <p>
+                  Your support helps a student-led 501(c)(3) nonprofit create
+                  accessible STEM curriculum, outreach materials, and learning
+                  opportunities for younger students.
+                </p>
+                <p>
+                  Contributions support educational resource development,
+                  student programs, and community outreach.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="donorbox-wrap donate-widget-wrap">
+              <script
+                type="module"
+                src="https://donorbox.org/widgets.js"
+                async
+              ></script>
+              <dbox-widget
+                campaign="iris-tem"
+                type="donation_form"
+                enable-auto-scroll="true"
+              ></dbox-widget>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
-                <p>&copy; <span class="current-year"></span> IRISTEM. All rights reserved.</p>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-contact">
+              <img
+                class="footer-logo"
+                src="img/iristem/footer-logo.png"
+                alt="IRISTEM logo"
+              />
+              <p>
+                Student-led STEM nonprofit advancing environmental safety
+                through education, research, and community-based programs.
+              </p>
+              <p>
+                <i class="fa fa-phone-alt"></i
+                ><a href="tel:14084822895">(408) 482-2895</a>
+              </p>
+              <p>
+                <i class="fa fa-envelope"></i
+                ><a href="mailto:team@iristem.org">team@iristem.org</a>
+              </p>
+              <div class="footer-social">
+                <a
+                  class="btn btn-custom"
+                  href="https://www.instagram.com/iris_stem/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="IRISTEM on Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  class="btn btn-custom"
+                  href="https://www.linkedin.com/company/iristem/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="IRISTEM on LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Explore</h2>
+              <a href="about.html">About Us</a>
+              <a href="chapters.html">Chapters</a>
+              <a href="causes.html">Our Work</a>
+              <a href="blog.html">News</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Get Involved</h2>
+              <a href="donate.html">Donate</a>
+              <a href="volunteer.html">Volunteer</a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header"
+                target="_blank"
+                rel="noopener"
+                >Start a Chapter</a
+              >
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd8Svd1oJZq6-0HDybSGOanQmP0HwVrQAKguL8I0DltxocLtw/viewform?usp=publish-editor"
+                target="_blank"
+                rel="noopener"
+                >Join Us</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="container copyright">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>
+              &copy; <span class="current-year"></span> IRISTEM. All rights
+              reserved.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<!-- Footer End -->
+    <!-- Footer End -->
 
-        <!-- Back to top button -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
-        </div>
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/parallax/parallax.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
 
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-        <script>document.querySelectorAll('.current-year').forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
-    </body>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+      document.querySelectorAll(".current-year").forEach(function (el) {
+        el.textContent = new Date().getFullYear();
+      });
+    </script>
+  </body>
 </html>

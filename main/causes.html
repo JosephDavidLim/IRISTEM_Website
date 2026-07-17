@@ -1,156 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>IRISTEM | Our Work</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="IRISTEM, STEM, environmental safety, education, research, nonprofit" name="keywords">
-        <meta content="IRISTEM helps researchers translate complex STEM research into accessible, student-centered curriculum and outreach materials." name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>IRISTEM | Our Work</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="IRISTEM, STEM, environmental safety, education, research, nonprofit"
+      name="keywords"
+    />
+    <meta
+      content="IRISTEM helps researchers translate complex STEM research into accessible, student-centered curriculum and outreach materials."
+      name="description"
+    />
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-    <body>
-        <!-- This pulls the navbar from navbar.html and inserts it here. Credit to Gemini. -->
-<div id="navbar-inserts-here"></div>
-<script>
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => {
-            let parser = new DOMParser();
-            let doc = parser.parseFromString(data, 'text/html');
-            
-            let section = doc.querySelector('#navbar');
-            
-            document.getElementById('navbar-inserts-here').innerHTML = section.innerHTML;
+  <body>
+    <!-- This pulls the navbar from navbar.html and inserts it here. Credit to Gemini. -->
+    <div id="navbar-inserts-here"></div>
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          let parser = new DOMParser();
+          let doc = parser.parseFromString(data, "text/html");
+          let section = doc.querySelector("#navbar");
+          document.getElementById("navbar-inserts-here").innerHTML =
+            section.innerHTML;
         });
-</script>
+    </script>
 
-
-<!-- Page Header Start -->
-        <div class="page-header editorial-page-header">
-            <div class="container">
-                <h1>Our Work</h1>
-                <div class="editorial-page-rule"></div>
-                <p>See how IRISTEM translates research into explainers, activities, and outreach resources that younger students can understand and use.</p>
-            </div>
-        </div>
-        <!-- Page Header End -->
-
-        <div class="service">
-            <div class="container">
-                <div class="section-header text-center"><p>Our Work</p><h2>A clear path from research to outreach</h2></div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6"><div class="service-item"><div class="service-icon"><i class="flaticon-education"></i></div><div class="service-text"><h3>1. Understand</h3><p>We review papers, reports, presentations, and project goals to identify the essential ideas and intended impact.</p></div></div></div>
-                    <div class="col-lg-4 col-md-6"><div class="service-item"><div class="service-icon"><i class="flaticon-education"></i></div><div class="service-text"><h3>2. Translate</h3><p>Student creators turn technical material into clear narratives, visuals, vocabulary, lessons, and activities.</p></div></div></div>
-                    <div class="col-lg-4 col-md-6"><div class="service-item"><div class="service-icon"><i class="flaticon-kindness"></i></div><div class="service-text"><h3>3. Engage</h3><p>Completed resources support classroom learning, youth outreach, workshops, and community education.</p></div></div></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="causes">
-            <div class="container">
-                <div class="section-header text-center"><p>What We Create</p><h2>Resources designed for real learning settings</h2></div>
-                <div class="owl-carousel causes-carousel">
-                    <div class="causes-item"><div class="causes-img"><img src="img/marshland.png" alt="Marshland habitat used as an environmental STEM learning example"></div><div class="causes-text"><h3>Youth-Friendly Explainers</h3><p>Clear introductions to research questions, findings, vocabulary, and real-world applications.</p></div></div>
-                    <div class="causes-item"><div class="causes-img"><img src="img/clean-energy.png" alt="Clean energy technology used as a classroom STEM resource example"></div><div class="causes-text"><h3>Classroom Resources</h3><p>Curriculum, worksheets, discussion guides, and activities for different grade levels.</p></div></div>
-                    <div class="causes-item"><div class="causes-img"><img src="img/iristem/coastal-erosion.png" alt="Coastal erosion as an environmental STEM learning topic"></div><div class="causes-text"><h3>Coastal Resilience</h3><p>Student-facing resources can connect erosion, sea-level rise, and community safety to clear scientific explanations.</p></div></div>
-                    <div class="causes-item"><div class="causes-img"><img src="img/wild-fire.png" alt="Wildfire as an environmental safety education topic"></div><div class="causes-text"><h3>Wildfire Education</h3><p>Visual explainers and activities help students understand risk, preparedness, and environmental change.</p></div></div>
-                    <div class="causes-item"><div class="causes-img"><img src="img/iristem/drought.png" alt="Drought landscape connected to climate and water education"></div><div class="causes-text"><h3>Water and Drought</h3><p>Lessons can turn climate and water research into practical context for younger learners.</p></div></div>
-                    <div class="causes-item"><div class="causes-img"><img src="img/iristem/work-action.jpg" alt="Students participating in a hands-on STEM activity"></div><div class="causes-text"><h3>Outreach Experiences</h3><p>Materials for workshops, community programs, school visits, and youth-facing events.</p></div></div>
-                    <div class="causes-item"><div class="causes-img"><img src="img/forest.png" alt="Forest landscape connected to environmental outreach and education"></div><div class="causes-text"><h3>Impact Summaries</h3><p>Participation data, survey insights, and concise reporting that describe educational engagement.</p></div></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="call-to-action">
-            <div class="container"><div class="row align-items-center"><div class="col-lg-9"><h2>Have research with a story worth sharing?</h2><p>We help make that story useful to students, educators, and communities.</p></div><div class="col-lg-3"><a class="btn btn-custom" href="event.html">Partner With Us</a></div></div></div>
-        </div>
-
-        <!-- Footer Start -->
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-contact">
-                    <img class="footer-logo" src="img/iristem/footer-logo.png" alt="IRISTEM logo">
-                    <p>Student-led STEM nonprofit advancing environmental safety through education, research, and community-based programs.</p>
-                    <p><i class="fa fa-phone-alt"></i><a href="tel:14084822895">(408) 482-2895</a></p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:team@iristem.org">team@iristem.org</a></p>
-                    <div class="footer-social">
-                        <a class="btn btn-custom" href="https://www.instagram.com/iris_stem/" target="_blank" rel="noopener" aria-label="IRISTEM on Instagram"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-custom" href="https://www.linkedin.com/company/iristem/" target="_blank" rel="noopener" aria-label="IRISTEM on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-link">
-                    <h2>Explore</h2>
-                    <a href="about.html">About Us</a>
-                    <a href="chapters.html">Chapters</a>
-                    <a href="causes.html">Our Work</a>
-                    <a href="blog.html">News</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-link">
-                    <h2>Get Involved</h2>
-                    <a href="donate.html">Donate</a>
-                    <a href="volunteer.html">Volunteer</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header" target="_blank" rel="noopener">Start a Chapter</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Svd1oJZq6-0HDybSGOanQmP0HwVrQAKguL8I0DltxocLtw/viewform?usp=publish-editor" target="_blank" rel="noopener">Join Us</a>
-                </div>
-            </div>
-        </div>
+    <!-- Page Header Start -->
+    <div class="page-header editorial-page-header">
+      <div class="container">
+        <h1>Our Work</h1>
+        <div class="editorial-page-rule"></div>
+        <p>
+          See how IRISTEM translates research into explainers, activities, and
+          outreach resources that younger students can understand and use.
+        </p>
+      </div>
     </div>
-    <div class="container copyright">
+    <!-- Page Header End -->
+
+    <div class="service">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Our Work</p>
+          <h2>A clear path from research to outreach</h2>
+        </div>
         <div class="row">
-            <div class="col-12 text-center">
-                <p>&copy; <span class="current-year"></span> IRISTEM. All rights reserved.</p>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-icon"><i class="flaticon-education"></i></div>
+              <div class="service-text">
+                <h3>1. Understand</h3>
+                <p>
+                  We review papers, reports, presentations, and project goals to
+                  identify the essential ideas and intended impact.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-icon"><i class="flaticon-education"></i></div>
+              <div class="service-text">
+                <h3>2. Translate</h3>
+                <p>
+                  Student creators turn technical material into clear
+                  narratives, visuals, vocabulary, lessons, and activities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="service-icon"><i class="flaticon-kindness"></i></div>
+              <div class="service-text">
+                <h3>3. Engage</h3>
+                <p>
+                  Completed resources support classroom learning, youth
+                  outreach, workshops, and community education.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Footer End -->
 
-        <!-- Back to top button -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
+    <div class="causes">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>What We Create</p>
+          <h2>Resources designed for real learning settings</h2>
         </div>
+        <div class="owl-carousel causes-carousel">
+          <div class="causes-item">
+            <div class="causes-img">
+              <img
+                src="img/marshland.png"
+                alt="Marshland habitat used as an environmental STEM learning example"
+              />
+            </div>
+            <div class="causes-text">
+              <h3>Youth-Friendly Explainers</h3>
+              <p>
+                Clear introductions to research questions, findings, vocabulary,
+                and real-world applications.
+              </p>
+            </div>
+          </div>
+          <div class="causes-item">
+            <div class="causes-img">
+              <img
+                src="img/clean-energy.png"
+                alt="Clean energy technology used as a classroom STEM resource example"
+              />
+            </div>
+            <div class="causes-text">
+              <h3>Classroom Resources</h3>
+              <p>
+                Curriculum, worksheets, discussion guides, and activities for
+                different grade levels.
+              </p>
+            </div>
+          </div>
+          <div class="causes-item">
+            <div class="causes-img">
+              <img
+                src="img/iristem/coastal-erosion.png"
+                alt="Coastal erosion as an environmental STEM learning topic"
+              />
+            </div>
+            <div class="causes-text">
+              <h3>Coastal Resilience</h3>
+              <p>
+                Student-facing resources can connect erosion, sea-level rise,
+                and community safety to clear scientific explanations.
+              </p>
+            </div>
+          </div>
+          <div class="causes-item">
+            <div class="causes-img">
+              <img
+                src="img/wild-fire.png"
+                alt="Wildfire as an environmental safety education topic"
+              />
+            </div>
+            <div class="causes-text">
+              <h3>Wildfire Education</h3>
+              <p>
+                Visual explainers and activities help students understand risk,
+                preparedness, and environmental change.
+              </p>
+            </div>
+          </div>
+          <div class="causes-item">
+            <div class="causes-img">
+              <img
+                src="img/iristem/drought.png"
+                alt="Drought landscape connected to climate and water education"
+              />
+            </div>
+            <div class="causes-text">
+              <h3>Water and Drought</h3>
+              <p>
+                Lessons can turn climate and water research into practical
+                context for younger learners.
+              </p>
+            </div>
+          </div>
+          <div class="causes-item">
+            <div class="causes-img">
+              <img
+                src="img/iristem/work-action.jpg"
+                alt="Students participating in a hands-on STEM activity"
+              />
+            </div>
+            <div class="causes-text">
+              <h3>Outreach Experiences</h3>
+              <p>
+                Materials for workshops, community programs, school visits, and
+                youth-facing events.
+              </p>
+            </div>
+          </div>
+          <div class="causes-item">
+            <div class="causes-img">
+              <img
+                src="img/forest.png"
+                alt="Forest landscape connected to environmental outreach and education"
+              />
+            </div>
+            <div class="causes-text">
+              <h3>Impact Summaries</h3>
+              <p>
+                Participation data, survey insights, and concise reporting that
+                describe educational engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/parallax/parallax.min.js"></script>
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-9">
+            <h2>Have research with a story worth sharing?</h2>
+            <p>
+              We help make that story useful to students, educators, and
+              communities.
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <a class="btn btn-custom" href="event.html">Partner With Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-contact">
+              <img
+                class="footer-logo"
+                src="img/iristem/footer-logo.png"
+                alt="IRISTEM logo"
+              />
+              <p>
+                Student-led STEM nonprofit advancing environmental safety
+                through education, research, and community-based programs.
+              </p>
+              <p>
+                <i class="fa fa-phone-alt"></i
+                ><a href="tel:14084822895">(408) 482-2895</a>
+              </p>
+              <p>
+                <i class="fa fa-envelope"></i
+                ><a href="mailto:team@iristem.org">team@iristem.org</a>
+              </p>
+              <div class="footer-social">
+                <a
+                  class="btn btn-custom"
+                  href="https://www.instagram.com/iris_stem/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="IRISTEM on Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  class="btn btn-custom"
+                  href="https://www.linkedin.com/company/iristem/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="IRISTEM on LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Explore</h2>
+              <a href="about.html">About Us</a>
+              <a href="chapters.html">Chapters</a>
+              <a href="causes.html">Our Work</a>
+              <a href="blog.html">News</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Get Involved</h2>
+              <a href="donate.html">Donate</a>
+              <a href="volunteer.html">Volunteer</a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header"
+                target="_blank"
+                rel="noopener"
+                >Start a Chapter</a
+              >
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd8Svd1oJZq6-0HDybSGOanQmP0HwVrQAKguL8I0DltxocLtw/viewform?usp=publish-editor"
+                target="_blank"
+                rel="noopener"
+                >Join Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>
+              &copy; <span class="current-year"></span> IRISTEM. All rights
+              reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-        <script>document.querySelectorAll('.current-year').forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
-    </body>
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+      document.querySelectorAll(".current-year").forEach(function (el) {
+        el.textContent = new Date().getFullYear();
+      });
+    </script>
+  </body>
 </html>
