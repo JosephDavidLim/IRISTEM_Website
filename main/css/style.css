@@ -2659,7 +2659,6 @@ p {
     color: #ffffff;
     background: var(--style-primary);
     border-radius: 16px;
-    /* text-transform: uppercase; */
 }
 
 .navbar-dark .navbar-nav .nav-donate:hover,
