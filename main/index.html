@@ -42,19 +42,7 @@
   <body>
     <!-- This pulls the navbar from navbar.html and inserts it here. Credit to Gemini. -->
     <div id="navbar-inserts-here"></div>
-    <script>
-      fetch("navbar.html")
-        .then((response) => response.text())
-        .then((data) => {
-          let parser = new DOMParser();
-          let doc = parser.parseFromString(data, "text/html");
-
-          let section = doc.querySelector("#navbar");
-
-          document.getElementById("navbar-inserts-here").innerHTML =
-            section.innerHTML;
-        });
-    </script>
+    <script src="js/navbar.js"></script>
 
     <!-- Carousel Start -->
     <div class="carousel">
