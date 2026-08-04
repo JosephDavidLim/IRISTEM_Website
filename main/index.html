@@ -40,11 +40,68 @@
                 <div class="nav-panel" id="site-menu" data-menu>
                     <nav aria-label="Main navigation">
                         <ul class="nav-list">
-                            <li><a href="#our-work">Our Work</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="chapters.html">Chapters</a></li>
+                            <li class="nav-dropdown">
+                                <button
+                                    class="nav-dropdown__toggle"
+                                    type="button"
+                                    aria-expanded="false"
+                                    aria-controls="home-work-menu"
+                                    data-home-dropdown-toggle
+                                >
+                                    Our Work
+                                    <span class="nav-dropdown__caret" aria-hidden="true"></span>
+                                </button>
+                                <ul class="nav-dropdown__menu" id="home-work-menu">
+                                    <li><a href="service.html">Broader Impacts</a></li>
+                                    <li><a href="causes.html">Research Translation</a></li>
+                                    <li><a href="blog.html">News &amp; Insights</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-dropdown">
+                                <button
+                                    class="nav-dropdown__toggle"
+                                    type="button"
+                                    aria-expanded="false"
+                                    aria-controls="home-about-menu"
+                                    data-home-dropdown-toggle
+                                >
+                                    About Us
+                                    <span class="nav-dropdown__caret" aria-hidden="true"></span>
+                                </button>
+                                <ul class="nav-dropdown__menu" id="home-about-menu">
+                                    <li><a href="about.html">About IRISTEM</a></li>
+                                    <li><a href="chapters.html">Chapters</a></li>
+                                    <li><a href="team.html">Our Team</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-dropdown">
+                                <button
+                                    class="nav-dropdown__toggle"
+                                    type="button"
+                                    aria-expanded="false"
+                                    aria-controls="home-action-menu"
+                                    data-home-dropdown-toggle
+                                >
+                                    Take Action
+                                    <span class="nav-dropdown__caret" aria-hidden="true"></span>
+                                </button>
+                                <ul class="nav-dropdown__menu" id="home-action-menu">
+                                    <li><a href="event.html">Partner With Us</a></li>
+                                    <li><a href="volunteer.html">Volunteer</a></li>
+                                    <li>
+                                        <a
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header"
+                                            target="_blank"
+                                            rel="noopener"
+                                        >Start a Chapter</a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li><a href="#impact">Impact</a></li>
-                            <li><a href="blog.html">News</a></li>
+                            <li>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Svd1oJZq6-0HDybSGOanQmP0HwVrQAKguL8I0DltxocLtw/viewform">Join Us</a>
+                            </li>
                         </ul>
                     </nav>
                     <a class="button button--small" href="donate.html">Donate</a>

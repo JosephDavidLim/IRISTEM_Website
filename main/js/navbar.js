@@ -42,6 +42,8 @@
         const dropdownToggle = activeDropdown.querySelector(".dropdown-toggle");
         if (dropdownToggle) dropdownToggle.classList.add("active");
       }
+
+      initializeNavigation(container);
     })
     .catch((error) => {
       console.warn("Using fallback navigation.", error);
@@ -57,4 +59,71 @@
           </div>
         </nav>`;
     });
+
+  function initializeNavigation(navContainer) {
+    const menuToggle = navContainer.querySelector("[data-navbar-toggle]");
+    const menu = navContainer.querySelector("#navbarCollapse");
+    const dropdownToggles = navContainer.querySelectorAll(
+      "[data-navbar-dropdown-toggle]",
+    );
+
+    function setDropdownState(toggle, isOpen) {
+      const dropdown = toggle.closest(".dropdown");
+      const dropdownMenu = dropdown?.querySelector(".dropdown-menu");
+
+      dropdown?.classList.toggle("show", isOpen);
+      dropdownMenu?.classList.toggle("show", isOpen);
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    }
+
+    function closeDropdowns(exceptToggle) {
+      dropdownToggles.forEach((toggle) => {
+        if (toggle !== exceptToggle) setDropdownState(toggle, false);
+      });
+    }
+
+    function closeMobileMenu() {
+      menu?.classList.remove("show");
+      menuToggle?.setAttribute("aria-expanded", "false");
+      closeDropdowns();
+    }
+
+    menuToggle?.addEventListener("click", () => {
+      const isOpen = menu?.classList.contains("show");
+
+      menu?.classList.toggle("show", !isOpen);
+      menuToggle.setAttribute("aria-expanded", String(!isOpen));
+      if (isOpen) closeDropdowns();
+    });
+
+    dropdownToggles.forEach((toggle) => {
+      toggle.addEventListener("click", () => {
+        const isOpen = toggle.getAttribute("aria-expanded") === "true";
+
+        closeDropdowns(toggle);
+        setDropdownState(toggle, !isOpen);
+      });
+    });
+
+    navContainer.querySelectorAll(".dropdown-item").forEach((link) => {
+      link.addEventListener("click", closeMobileMenu);
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!navContainer.contains(event.target)) {
+        closeDropdowns();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeDropdowns();
+        if (window.innerWidth < 992) closeMobileMenu();
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 992) closeMobileMenu();
+    });
+  }
 })();

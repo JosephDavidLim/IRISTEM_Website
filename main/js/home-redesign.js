@@ -3,12 +3,27 @@
 
     var menuToggle = document.querySelector("[data-menu-toggle]");
     var menu = document.querySelector("[data-menu]");
+    var dropdownToggles = document.querySelectorAll("[data-home-dropdown-toggle]");
+
+    function setDropdownState(toggle, isOpen) {
+        var dropdown = toggle.closest(".nav-dropdown");
+
+        toggle.setAttribute("aria-expanded", String(isOpen));
+        if (dropdown) dropdown.classList.toggle("is-open", isOpen);
+    }
+
+    function closeDropdowns(exceptToggle) {
+        dropdownToggles.forEach(function (toggle) {
+            if (toggle !== exceptToggle) setDropdownState(toggle, false);
+        });
+    }
 
     function closeMenu() {
         if (!menuToggle || !menu) return;
         menuToggle.setAttribute("aria-expanded", "false");
         menu.classList.remove("is-open");
         document.body.classList.remove("menu-open");
+        closeDropdowns();
     }
 
     if (menuToggle && menu) {
@@ -31,6 +46,19 @@
             if (window.innerWidth > 1050) closeMenu();
         });
     }
+
+    dropdownToggles.forEach(function (toggle) {
+        toggle.addEventListener("click", function () {
+            var isOpen = toggle.getAttribute("aria-expanded") === "true";
+
+            closeDropdowns(toggle);
+            setDropdownState(toggle, !isOpen);
+        });
+    });
+
+    document.addEventListener("click", function (event) {
+        if (!event.target.closest(".nav-dropdown")) closeDropdowns();
+    });
 
     var revealItems = document.querySelectorAll(".reveal");
     var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;

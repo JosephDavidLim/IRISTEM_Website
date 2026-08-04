@@ -34,41 +34,6 @@
         }
     });
     
-    
-    // Keep desktop dropdowns open while moving from the trigger into the menu.
-    $(document).ready(function () {
-        function setDropdownState(dropdown, isOpen) {
-            var $dropdown = $(dropdown);
-
-            $dropdown.toggleClass('show', isOpen);
-            $dropdown.children('.dropdown-menu').toggleClass('show', isOpen);
-            $dropdown.children('.dropdown-toggle')
-                .attr('aria-expanded', String(isOpen));
-        }
-
-        function toggleNavbarMethod() {
-            $(document).off('.iristemDropdown');
-
-            if ($(window).width() > 992) {
-                $(document)
-                    .on('mouseenter.iristemDropdown', '.navbar .dropdown', function () {
-                        setDropdownState(this, true);
-                    })
-                    .on('mouseleave.iristemDropdown', '.navbar .dropdown', function () {
-                        setDropdownState(this, false);
-                    });
-            } else {
-                $('.navbar .dropdown').each(function () {
-                    setDropdownState(this, false);
-                });
-            }
-        }
-
-        toggleNavbarMethod();
-        $(window).on('resize.iristemDropdown', toggleNavbarMethod);
-    });
-
-    
     // Main carousel
     $(".carousel .owl-carousel").owlCarousel({
         autoplay: true,

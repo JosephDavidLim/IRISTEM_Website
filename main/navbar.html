@@ -98,8 +98,7 @@
           <button
             type="button"
             class="navbar-toggler"
-            data-toggle="collapse"
-            data-target="#navbarCollapse"
+            data-navbar-toggle
             aria-controls="navbarCollapse"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -113,13 +112,15 @@
             <div class="navbar-nav ml-auto">
               <a href="index.html" class="nav-item nav-link active">Home</a>
               <div class="nav-item dropdown">
-                <a
-                  href="#"
+                <button
+                  type="button"
                   class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  >Our Work</a
+                  data-navbar-dropdown-toggle
+                  >Our Work
+                  <span class="navbar-dropdown-caret" aria-hidden="true"></span>
+                </button
                 >
                 <div class="dropdown-menu">
                   <a href="service.html" class="dropdown-item"
@@ -134,13 +135,15 @@
                 </div>
               </div>
               <div class="nav-item dropdown">
-                <a
-                  href="#"
+                <button
+                  type="button"
                   class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  >About Us</a
+                  data-navbar-dropdown-toggle
+                  >About Us
+                  <span class="navbar-dropdown-caret" aria-hidden="true"></span>
+                </button
                 >
                 <div class="dropdown-menu">
                   <a href="about.html" class="dropdown-item">About IRISTEM</a>
@@ -150,13 +153,15 @@
                 </div>
               </div>
               <div class="nav-item dropdown">
-                <a
-                  href="#"
+                <button
+                  type="button"
                   class="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
-                  >Take Action</a
+                  data-navbar-dropdown-toggle
+                  >Take Action
+                  <span class="navbar-dropdown-caret" aria-hidden="true"></span>
+                </button
                 >
                 <div class="dropdown-menu">
                   <a href="event.html" class="dropdown-item">Partner With Us</a>
