@@ -35,21 +35,37 @@
     });
     
     
-    // Dropdown on mouse hover
+    // Keep desktop dropdowns open while moving from the trigger into the menu.
     $(document).ready(function () {
+        function setDropdownState(dropdown, isOpen) {
+            var $dropdown = $(dropdown);
+
+            $dropdown.toggleClass('show', isOpen);
+            $dropdown.children('.dropdown-menu').toggleClass('show', isOpen);
+            $dropdown.children('.dropdown-toggle')
+                .attr('aria-expanded', String(isOpen));
+        }
+
         function toggleNavbarMethod() {
+            $(document).off('.iristemDropdown');
+
             if ($(window).width() > 992) {
-                $('.navbar .dropdown').on('mouseover', function () {
-                    $('.dropdown-toggle', this).trigger('click');
-                }).on('mouseout', function () {
-                    $('.dropdown-toggle', this).trigger('click').blur();
-                });
+                $(document)
+                    .on('mouseenter.iristemDropdown', '.navbar .dropdown', function () {
+                        setDropdownState(this, true);
+                    })
+                    .on('mouseleave.iristemDropdown', '.navbar .dropdown', function () {
+                        setDropdownState(this, false);
+                    });
             } else {
-                $('.navbar .dropdown').off('mouseover').off('mouseout');
+                $('.navbar .dropdown').each(function () {
+                    setDropdownState(this, false);
+                });
             }
         }
+
         toggleNavbarMethod();
-        $(window).resize(toggleNavbarMethod);
+        $(window).on('resize.iristemDropdown', toggleNavbarMethod);
     });
 
     

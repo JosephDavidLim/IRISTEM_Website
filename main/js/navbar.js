@@ -20,6 +20,28 @@
       }
 
       container.innerHTML = navbar.innerHTML;
+
+      const currentPage =
+        window.location.pathname.split("/").pop() || "index.html";
+      const links = container.querySelectorAll(".nav-link, .dropdown-item");
+      let activeDropdown = null;
+
+      links.forEach((link) => {
+        const href = link.getAttribute("href");
+        link.classList.remove("active");
+        link.removeAttribute("aria-current");
+
+        if (href === currentPage) {
+          link.classList.add("active");
+          link.setAttribute("aria-current", "page");
+          activeDropdown = link.closest(".dropdown");
+        }
+      });
+
+      if (activeDropdown) {
+        const dropdownToggle = activeDropdown.querySelector(".dropdown-toggle");
+        if (dropdownToggle) dropdownToggle.classList.add("active");
+      }
     })
     .catch((error) => {
       console.warn("Using fallback navigation.", error);
