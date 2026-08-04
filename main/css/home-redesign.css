@@ -339,7 +339,6 @@ input {
     padding: 12px 0;
     list-style: none;
     background: var(--paper);
-    border-top: 5px solid var(--forest);
     box-shadow: 0 18px 30px rgba(17, 21, 18, .16);
 }
 

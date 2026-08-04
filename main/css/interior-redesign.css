@@ -225,7 +225,6 @@ a:focus {
     padding: 12px 0;
     background: var(--hybrid-paper);
     border: 0;
-    border-top: 5px solid var(--hybrid-forest);
     border-radius: 0;
     box-shadow: 0 18px 30px rgba(17, 21, 18, .16);
 }
