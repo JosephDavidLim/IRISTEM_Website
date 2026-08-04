@@ -2249,6 +2249,12 @@ a:focus {
     object-fit: contain;
 }
 
+.partner-thanks {
+    margin: 36px 0 0;
+    font-style: italic;
+    color: var(--color-emerald-950);
+}
+
 .navbar-dark .navbar-nav .nav-donate {
     margin-left: 12px;
     padding-right: 18px;

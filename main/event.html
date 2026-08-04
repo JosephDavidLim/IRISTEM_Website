@@ -18,7 +18,7 @@
 
     <!-- Google Font -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Libre+Caslon+Display&amp;display=swap"
       rel="stylesheet"
     />
 
@@ -37,6 +37,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/interior-redesign.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -63,7 +64,7 @@
           <div class="col-lg-6">
             <div class="about-img">
               <img
-                src="img/iristem/work-access.jpg"
+                src="img/iristem/public%20/work-access.jpg"
                 alt="Young students accessing STEM education materials"
               />
             </div>
@@ -93,13 +94,45 @@
       </div>
     </div>
 
+    <section class="documentary-gallery" aria-labelledby="connection-title">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Learning in Practice</p>
+          <h2 id="connection-title">Research, activity, and outreach in motion</h2>
+        </div>
+        <div class="documentary-gallery-grid">
+          <figure>
+            <img
+              src="img/iristem/public%20/about-presentation.png"
+              alt="An IRISTEM student presenting research to an audience"
+            />
+            <figcaption>Present research with clarity.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/iristem/public%20/work-action.jpg"
+              alt="Students testing ideas through a hands-on STEM activity"
+            />
+            <figcaption>Turn ideas into active learning.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/iristem/public%20/work-monitoring.jpg"
+              alt="Students participating in an IRISTEM classroom workshop"
+            />
+            <figcaption>Bring learning into the room.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
     <div class="partners">
       <div class="container">
         <div class="section-header text-center">
           <p>Our Partners</p>
           <h2>Organizations connected to our work</h2>
         </div>
-        <div class="partners-grid" aria-label="IRISTEM partner organizations">
+        <div class="partners-grid" role="group" aria-label="IRISTEM partner organizations">
           <div class="partner-logo">
             <img src="img/iristem/svyca.png" alt="SVYCA" />
           </div>
@@ -128,6 +161,9 @@
             />
           </div>
         </div>
+        <p class="partner-thanks text-center">
+          Thank you to our partners for supporting our mission.
+        </p>
       </div>
     </div>
 
@@ -186,7 +222,7 @@
             <div class="footer-contact">
               <img
                 class="footer-logo"
-                src="img/iristem/footer-logo.png"
+                src="img/iristem/logo.png"
                 alt="IRISTEM logo"
               />
               <p>
@@ -266,7 +302,7 @@
     <!-- Footer End -->
 
     <!-- Back to top button -->
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <a href="#" class="back-to-top" aria-label="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
 
     <!-- Pre Loader -->
     <div id="loader" class="show">
