@@ -332,20 +332,14 @@
                 </div>
 
                 <div
-                    class="partner-carousel reveal"
+                    class="partner-carousel partner-carousel--ticker reveal"
                     role="region"
-                    aria-roledescription="carousel"
+                    aria-roledescription="marquee"
                     aria-label="IRISTEM partner organizations"
-                    data-partner-carousel
                 >
-                    <button class="partner-carousel__arrow partner-carousel__arrow--previous" type="button" aria-label="Show previous partner" data-partner-previous>
-                        <span aria-hidden="true">&lt;</span>
-                    </button>
-                    <button class="partner-carousel__arrow partner-carousel__arrow--next" type="button" aria-label="Show next partner" data-partner-next>
-                        <span aria-hidden="true">&gt;</span>
-                    </button>
                     <div class="partner-carousel__viewport">
-                        <div class="partner-carousel__track" data-partner-track>
+                        <div class="partner-carousel__track">
+                          <div class="partner-carousel__set">
                             <article class="partner-card" role="group" aria-roledescription="slide" aria-label="1 of 9">
                                 <div class="partner-card__logo">
                                     <img src="img/iristem/transparent/svyca.png" alt="Silicon Valley Youth Climate Action">
@@ -400,6 +394,7 @@
                                 </div>
                                 <p>Santa Clara County Office of Education</p>
                             </article>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -458,5 +453,16 @@
     </footer>
 
     <script src="js/home-redesign.js"></script>
+    <script>
+        var homePartnerSet = document.querySelector(".partner-carousel--ticker .partner-carousel__set");
+        if (homePartnerSet) {
+            var homePartnerClone = homePartnerSet.cloneNode(true);
+            homePartnerClone.setAttribute("aria-hidden", "true");
+            homePartnerClone.querySelectorAll("a, button, input, select, textarea").forEach(function (el) {
+                el.setAttribute("tabindex", "-1");
+            });
+            homePartnerSet.parentElement.appendChild(homePartnerClone);
+        }
+    </script>
 </body>
 </html>

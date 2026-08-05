@@ -573,6 +573,47 @@ input {
     display: none;
 }
 
+/* A continuous, seamless partner-logo marquee for the homepage. */
+.partner-carousel--ticker .partner-carousel__track {
+    display: flex;
+    width: max-content;
+    gap: 0;
+    padding: 2px 0;
+    overflow: visible;
+    scroll-snap-type: none;
+    animation: home-partner-ticker-scroll 34s linear infinite;
+    will-change: transform;
+}
+
+.partner-carousel--ticker .partner-carousel__set {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    padding-right: 24px;
+}
+
+.partner-carousel--ticker .partner-card {
+    flex: 0 0 clamp(180px, 22vw, 260px);
+    scroll-snap-align: none;
+}
+
+.partner-carousel--ticker:hover .partner-carousel__track,
+.partner-carousel--ticker:focus-within .partner-carousel__track {
+    animation-play-state: paused;
+}
+
+@keyframes home-partner-ticker-scroll {
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .partner-carousel--ticker .partner-carousel__track {
+        animation: none;
+    }
+}
+
 .partner-card {
     min-height: 190px;
     display: grid;
