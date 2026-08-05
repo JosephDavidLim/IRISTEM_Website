@@ -941,7 +941,39 @@ a:focus {
 }
 
 .chapter-logo {
-    margin-top: auto;
+    height: 140px;
+    min-height: 140px;
+    margin: auto 8px 0;
+    padding-top: 0;
+    overflow: hidden;
+}
+
+.chapter-logo img {
+    width: 130px;
+    height: 130px;
+    max-width: none;
+    max-height: none;
+    object-fit: contain;
+    /* Keep the artwork inside the shared viewport, including marks that use
+       almost the full height of their transparent source canvas. */
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+/* Wide marks need more scale because their source files include a square
+   transparent canvas. The shared viewport above keeps every logo row aligned. */
+.chapter-logo img[src*="01_archbishop_mitty"],
+.chapter-logo img[src*="05_stanford_online"],
+.chapter-logo img[src*="10_the_college_preparatory"] {
+    transform: scale(2);
+}
+
+.chapter-logo img[src*="02_leland"],
+.chapter-logo img[src*="11_willow_glen"],
+.chapter-logo img[src*="14_college_park"],
+.chapter-logo img[src*="15_el_cerrito"],
+.chapter-logo img[src*="16_our_lady_of_good_counsel"] {
+    transform: scale(1.75);
 }
 
 .chapter-details {
