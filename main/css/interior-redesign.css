@@ -838,6 +838,13 @@ a:focus {
     transform: translateY(-4px);
 }
 
+.partner-logo--penn img {
+    width: 100%;
+    max-width: 250px;
+    padding: 14px 18px;
+    background: #011f5b;
+}
+
 .partner-thanks {
     color: var(--hybrid-forest);
 }
