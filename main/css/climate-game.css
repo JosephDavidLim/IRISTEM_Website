@@ -190,7 +190,7 @@
 }
 
 .cg-bucket.cg-empty .cg-coin-stack::after {
-  content: "—";
+  content: "-";
   color: rgba(178, 44, 44, 0.7);
   font-size: 12px;
 }

@@ -1,14 +1,14 @@
 /**
- * "How to Pay for Climate Costs" — interactive budget simulation.
+ * "How to Pay for Climate Costs," an interactive budget simulation.
  * Implements the official game rules: allocate tokens across 7 sectors,
  * then resolve 3 climate event cards.
  *
  * - Funding Gap (tokens < an event's cost): the balance is lost and the
  *   simulation ends immediately.
  * - Sufficient Coverage (tokens >= an event's cost): always a success, even
- *   when it drains a sector to exactly 0 — that sector has done its job.
+ *   when it drains a sector to exactly 0; that sector has done its job.
  * - Victory requires surviving all 3 cards AND every sector that was never
- *   targeted by an event still holding at least 1 token — a sector left
+ *   targeted by an event still holding at least 1 token; a sector left
  *   empty during allocation can never recover, so it dooms the round the
  *   moment it's drawn (instant Funding Gap) or, if never drawn, at the
  *   final check.
@@ -51,8 +51,8 @@
   ];
 
   var ROUNDS = {
-    1: { label: "Round 1 — Local Budget Only", total: 8, local: 8, superfund: 0 },
-    2: { label: "Round 2 — Climate Superfund", total: 12, local: 8, superfund: 4 },
+    1: { label: "Round 1: Local Budget Only", total: 8, local: 8, superfund: 0 },
+    2: { label: "Round 2: Climate Superfund", total: 12, local: 8, superfund: 4 },
   };
 
   var els = {};
@@ -190,9 +190,9 @@
           : state.round.local + " Local";
       wrap.innerHTML =
         '<p class="cg-instructions">Distribute all ' + state.round.total + " tokens (" + composition +
-        ") across the sectors above. You may leave a sector empty — but it will be completely unbuffered." +
+        ") across the sectors above. You may leave a sector empty, but it will be completely unbuffered." +
         "</p>" +
-        '<p class="cg-tip">Tip: a sector can never be topped up once the budget is locked in. Any sector left at 0 can never reach Climate Resilience — it must dodge every event AND still won’t count as funded at the end.</p>' +
+        '<p class="cg-tip">Tip: a sector can never be topped up once the budget is locked in. Any sector left at 0 can never reach Climate Resilience. It must dodge every event AND still won’t count as funded at the end.</p>' +
         '<div class="cg-actions">' +
         '<button type="button" class="btn btn-custom" id="cg-lock-budget"' +
         (state.tokensRemaining === 0 ? "" : " disabled") +
@@ -273,25 +273,25 @@
     if (available >= card.cost) {
       // Sufficient Coverage: always a successful resolution, even when it
       // drains the sector to exactly 0. The official rules only call an
-      // immediate "infrastructure failure" when tokens are insufficient —
+      // immediate "infrastructure failure" when tokens are insufficient;
       // a sector that pays its cost in full has still done its job.
       state.buckets[card.category] -= card.cost;
       var remaining = state.buckets[card.category];
       if (remaining === 0) {
         result = {
           kind: "warning",
-          text: "✅ Sufficient Coverage — " + catName + " paid " + card.cost + " token(s) in full and is now fully spent, with nothing left for the rest of this round.",
+          text: "✅ Sufficient Coverage: " + catName + " paid " + card.cost + " token(s) in full and is now fully spent, with nothing left for the rest of this round.",
         };
         flashBucket(card.category, "cg-flash-warning");
       } else {
         result = {
           kind: "success",
-          text: "✅ Sufficient Coverage — " + catName + " paid " + card.cost + " token(s) and has " + remaining + " left.",
+          text: "✅ Sufficient Coverage: " + catName + " paid " + card.cost + " token(s) and has " + remaining + " left.",
         };
         flashBucket(card.category, "cg-flash-success");
       }
     } else {
-      // Funding Gap: tokens are fewer than required — the entire balance is
+      // Funding Gap: tokens are fewer than required, so the entire balance is
       // lost and this ends the simulation immediately.
       state.buckets[card.category] = 0;
       result = {
@@ -352,7 +352,7 @@
     state.victory = victory;
     refreshBoard();
     renderControlPanel();
-    announce(victory ? "Climate Resilience achieved." : "Funding Gap — simulation over.");
+    announce(victory ? "Climate Resilience achieved." : "Funding Gap. Simulation over.");
   }
 
   function renderFinal() {
