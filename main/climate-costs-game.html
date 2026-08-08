@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>IRISTEM | How to Pay for Climate Costs</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="IRISTEM, STEM, climate education, budget simulation, game, environmental safety, education, research, nonprofit"
+      name="keywords"
+    />
+    <meta
+      content="How to Pay for Climate Costs is an IRISTEM classroom simulation where students act as city budget administrators balancing limited funds against climate disasters."
+      name="description"
+    />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Libre+Caslon+Display&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/interior-redesign.css" rel="stylesheet" />
+    <link href="css/climate-game.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- This pulls the navbar from navbar.html and inserts it here. Credit to Gemini. -->
+    <div id="navbar-inserts-here"></div>
+    <script src="js/navbar.js"></script>
+
+    <!-- Page Header Start -->
+    <div class="page-header editorial-page-header">
+      <div class="container">
+        <h1>How to Pay for Climate Costs</h1>
+        <div class="editorial-page-rule"></div>
+        <p>
+          A hands-on budget simulation that puts students in the role of city
+          administrators facing real climate disaster trade-offs.
+        </p>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Interactive Simulation Start -->
+    <section class="climate-game" id="climate-game">
+      <div class="container">
+        <div class="cg-intro">
+          <p class="cg-eyebrow">Interactive Simulation</p>
+          <h2>Play: How to Pay for Climate Costs</h2>
+          <p>
+            You're a city budget administrator. Allocate limited tokens
+            across seven infrastructure sectors, then face three
+            unpredictable climate events. Leave a sector at zero &mdash;
+            during setup or after an event &mdash; and it fails instantly.
+          </p>
+        </div>
+
+        <!-- Round Select -->
+        <div id="cg-round-select">
+          <div class="cg-round-cards">
+            <button type="button" class="cg-round-card" data-round="1">
+              <span class="cg-round-tag">Round 1</span>
+              <h3>Local Budget Only</h3>
+              <p>8 Tokens</p>
+              <p class="cg-round-desc">
+                Cover 7 sectors with only local funding. There's barely
+                enough to go around, let alone survive a second hit.
+              </p>
+            </button>
+            <button type="button" class="cg-round-card" data-round="2">
+              <span class="cg-round-tag">Round 2</span>
+              <h3>Climate Superfund</h3>
+              <p>12 Tokens (8 Local + 4 Superfund)</p>
+              <p class="cg-round-desc">
+                Polluter accountability and federal grants add a funding
+                cushion on top of the local budget.
+              </p>
+            </button>
+          </div>
+        </div>
+
+        <!-- Board -->
+        <div id="cg-board" hidden>
+          <div class="cg-board-header">
+            <div class="cg-status-item">
+              Round: <span id="cg-round-label"></span>
+            </div>
+            <div class="cg-status-item">
+              Tokens Remaining: <span id="cg-tokens-remaining">0</span>
+            </div>
+          </div>
+          <p class="cg-message" id="cg-message" aria-live="polite"></p>
+          <div class="cg-buckets" id="cg-buckets"></div>
+          <div class="cg-control-panel" id="cg-control-panel" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Interactive Simulation End -->
+
+    <div class="single">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="single-content">
+              <img
+                src="img/iristem/game.jpg"
+                alt="How to Pay for Climate Costs game board showing seven infrastructure categories: Wildfire, Homes, School, Medical, Floods, Trees, and Air"
+              />
+              <h1>Official Game Rules &amp; Simulation Guide</h1>
+              <p>
+                <em
+                  >How to Pay for Climate Costs</em
+                >
+                is a brief educational simulation highlighting the severe
+                economic pressures local governments face during climate
+                disasters. Players act as city budget administrators forced to
+                allocate limited public funds across seven vital
+                infrastructure sectors before confronting unpredictable,
+                high-severity climate events. Play the interactive version
+                above, or use the rules below to run the game with a physical
+                board, coins, and printed event cards.
+              </p>
+
+              <h2>Objective</h2>
+              <p>
+                Survive three climate event cards while maintaining funding
+                across all seven infrastructure categories. Players must
+                balance equal distribution versus deep protection to avoid
+                leaving any sector with zero funding.
+              </p>
+
+              <h2>Components</h2>
+              <ul>
+                <li>
+                  <strong>7 Category Buckets:</strong> Wildfire, Homes,
+                  School, Medical, Floods, Trees, Air.
+                </li>
+                <li>
+                  <strong>Budget Tokens (Coins):</strong> Physical markers
+                  representing municipal funding units.
+                </li>
+                <li>
+                  <strong>Event Deck:</strong> Climate disaster cards
+                  indicating sector targets and required severity costs.
+                </li>
+              </ul>
+
+              <h2>Setup</h2>
+              <p>
+                Place the seven Category Buckets side-by-side on the table.
+                Shuffle the Event Deck and place it face down. Determine which
+                game variant is being played (Round 1: 8 Tokens, or Round 2: 12
+                Tokens) and distribute tokens to players.
+              </p>
+
+              <h2>Starting the Game</h2>
+              <p>
+                <strong>Budget Allocation Phase:</strong> Players receive
+                their starting Budget Tokens and must distribute all tokens
+                across the seven category buckets on the board before drawing
+                cards.
+              </p>
+              <p>
+                <strong>Note:</strong> You may place multiple tokens into a
+                single category or leave categories empty. Any category with 0
+                tokens is completely unbuffered and exposed.
+              </p>
+
+              <h2>Climate Events &amp; Resolution</h2>
+              <p>
+                Draw three Event Cards sequentially from the deck. Each card
+                identifies a target category and a Severity Cost (1, 2, or 3
+                tokens). Compare the required cost with the placed tokens:
+              </p>
+              <ul>
+                <li>
+                  <strong>Sufficient Coverage:</strong> If tokens equal or
+                  exceed the cost, discard tokens equal to the card's cost
+                  from that category.
+                </li>
+                <li>
+                  <strong>Funding Gap:</strong> If tokens are fewer than
+                  required (or 0), an immediate infrastructure failure occurs.
+                </li>
+              </ul>
+
+              <h2>Winning and Losing the Game</h2>
+              <ul>
+                <li>
+                  <strong>Victory (Climate Resilience):</strong> You survive
+                  all 3 Event Cards AND every single category still has at
+                  least 1 token remaining.
+                </li>
+                <li>
+                  <strong>Failure (Funding Gap):</strong> You fail immediately
+                  if any category drops to 0 tokens, either during initial
+                  placement or after resolving an event card.
+                </li>
+              </ul>
+
+              <figure class="article-photo">
+                <img
+                  src="img/iristem/public%20/PollutersPay.png"
+                  alt="Community members holding 'Make Polluters Pay' signs at a climate accountability rally"
+                />
+                <figcaption>
+                  The Two-Round Mode connects gameplay to real conversations
+                  about polluter accountability and federal climate funding.
+                </figcaption>
+              </figure>
+
+              <h2>Rule Clarifications</h2>
+              <p>
+                If an event card requires 2 tokens in FLOODS, but FLOODS only
+                has 1 token, the entire 1 token is lost and the game results
+                in an immediate Funding Gap failure.
+              </p>
+
+              <h2>Alternate Rules (Two-Round Mode)</h2>
+              <p>
+                To highlight systemic funding mechanisms, play the game in two
+                distinct sequential rounds:
+              </p>
+              <ul>
+                <li>
+                  <strong>Round 1 (Local Budget Only &mdash; 8 Tokens):</strong>
+                  Players attempt to cover 7 buckets with only 8 tokens,
+                  leaving almost no buffer against a second or third event
+                  hitting the same sector.
+                </li>
+                <li>
+                  <strong
+                    >Round 2 (Climate Superfund &mdash; 12 Tokens):</strong
+                  >
+                  Players receive 8 local tokens plus 4 Superfund tokens
+                  (polluter accountability &amp; federal grants), giving every
+                  sector real breathing room against severe events.
+                </li>
+              </ul>
+
+              <h2>An Example of Play</h2>
+              <h3 style="font-size: 1.4rem; margin-top: 24px">
+                Round 1 Example
+              </h3>
+              <p>
+                Players start with 8 tokens and place 2 in Wildfire (their
+                top perceived risk), 1 token each in Homes, School, Medical,
+                and Floods, and stretch their budget by leaving Trees and Air
+                with 0 tokens. They draw Card 1: "Extreme Heat (Requires 1
+                Token in Air)." Because Air has 0 tokens, a Funding Gap
+                occurs instantly, ending the round in failure.
+              </p>
+              <h3 style="font-size: 1.4rem; margin-top: 24px">
+                Round 2 Example
+              </h3>
+              <p>
+                With 12 tokens, players place 3 in Floods, 3 in Wildfire, 2
+                in Homes, 1 in School, 1 in Medical, 1 in Trees, and 1 in Air.
+                Card 1 drawn: "Catastrophic Flooding (Requires 2 Tokens in
+                Floods)." Two tokens are removed from Floods, leaving 1
+                behind &mdash; Sufficient Coverage, with a buffer still in
+                place for the next event.
+              </p>
+
+              <h2>Discussion Notes</h2>
+              <p>
+                Discuss which sectors were sacrificed in Round 1 and how
+                external federal and Superfund resources altered budget
+                strategy in Round 2. This simulation is designed to give
+                students a tangible, low-stakes way to explore the trade-offs
+                local governments face when climate disasters outpace
+                available funding.
+              </p>
+
+              <div class="text-center mt-5">
+                <a class="btn btn-custom" href="contact.html"
+                  >Bring This Simulation to Your Classroom</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-contact">
+              <img
+                class="footer-logo"
+                src="img/iristem/logo.png"
+                alt="IRISTEM logo"
+              />
+              <p>
+                Student-led STEM nonprofit advancing environmental safety
+                through education, research, and community-based programs.
+              </p>
+              <p>
+                <i class="fa fa-phone-alt"></i
+                ><a href="tel:14084822895">(408) 482-2895</a>
+              </p>
+              <p>
+                <i class="fa fa-envelope"></i
+                ><a href="mailto:team@iristem.org">team@iristem.org</a>
+              </p>
+              <div class="footer-social">
+                <a
+                  class="btn btn-custom"
+                  href="https://www.instagram.com/iris_stem/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="IRISTEM on Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  class="btn btn-custom"
+                  href="https://www.linkedin.com/company/iristem/"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="IRISTEM on LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Explore</h2>
+              <a href="about.html">About Us</a>
+              <a href="chapters.html">Chapters</a>
+              <a href="causes.html">Our Work</a>
+              <a href="blog.html">News</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Get Involved</h2>
+              <a href="donate.html">Donate</a>
+              <a href="volunteer.html">Volunteer</a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header"
+                target="_blank"
+                rel="noopener"
+                >Start a Chapter</a
+              >
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd8Svd1oJZq6-0HDybSGOanQmP0HwVrQAKguL8I0DltxocLtw/viewform?usp=publish-editor"
+                target="_blank"
+                rel="noopener"
+                >Join Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>
+              &copy; <span class="current-year"></span> IRISTEM. All rights
+              reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" aria-label="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/climate-game.js"></script>
+    <script>
+      document.querySelectorAll(".current-year").forEach(function (el) {
+        el.textContent = new Date().getFullYear();
+      });
+    </script>
+  </body>
+</html>
