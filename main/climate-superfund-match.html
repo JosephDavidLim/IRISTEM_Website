@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>IRISTEM | Climate Superfund Matching Game</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="IRISTEM, climate education, Climate Superfund, California, matching game, environmental policy"
+      name="keywords"
+    />
+    <meta
+      content="Match ten questions and answers to explore California's 2025 Climate Superfund proposals, then use the discussion guide to reflect on climate policy."
+      name="description"
+    />
+
+    <link href="img/favicon.ico" rel="icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Libre+Caslon+Display&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/interior-redesign.css" rel="stylesheet" />
+    <link href="css/climate-superfund-match.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="navbar-inserts-here"></div>
+    <script src="js/navbar.js"></script>
+
+    <div class="page-header editorial-page-header superfund-page-header">
+      <div class="container">
+        <p class="superfund-kicker">IRISTEM Climate Learning Lab</p>
+        <h1>Climate Superfund Matching Game</h1>
+        <div class="editorial-page-rule"></div>
+        <p>
+          Pair ten questions with their answers to explore what California's
+          2025 Climate Superfund proposals would have done.
+        </p>
+        <a class="btn btn-custom" href="#matching-game">Start matching</a>
+      </div>
+    </div>
+
+    <main>
+      <section class="superfund-game" id="matching-game">
+        <div class="container">
+          <div class="superfund-intro">
+            <div>
+              <p class="superfund-eyebrow">Interactive activity</p>
+              <h2>Can you match all ten?</h2>
+            </div>
+            <div class="superfund-instructions">
+              <p>
+                Select one question and one answer, then choose
+                <strong>Check pair</strong>. Correct pairs lock into place;
+                incorrect cards return to the board so you can try again.
+              </p>
+            </div>
+          </div>
+
+          <div class="match-dashboard" aria-label="Game progress">
+            <div class="match-stat">
+              <span class="match-stat-label">Matched</span>
+              <strong><span id="match-count">0</span>/10</strong>
+            </div>
+            <div class="match-stat">
+              <span class="match-stat-label">Tries</span>
+              <strong id="attempt-count">0</strong>
+            </div>
+            <div class="match-stat">
+              <span class="match-stat-label">Time</span>
+              <strong id="match-time">0:00</strong>
+            </div>
+            <div class="match-progress-wrap">
+              <div class="match-progress-label">
+                <span>Progress</span><span id="progress-percent">0%</span>
+              </div>
+              <div
+                class="match-progress"
+                role="progressbar"
+                aria-label="Matching game progress"
+                aria-valuemin="0"
+                aria-valuemax="10"
+                aria-valuenow="0"
+                id="match-progress"
+              >
+                <span id="match-progress-bar"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="match-status" id="match-status" aria-live="polite">
+            Choose a question card to begin.
+          </div>
+
+          <div class="matching-board">
+            <section class="match-column" aria-labelledby="question-deck-title">
+              <div class="match-column-heading">
+                <span>Deck 01</span>
+                <h3 id="question-deck-title">Questions</h3>
+              </div>
+              <p class="match-scroll-hint">Scroll this deck to browse all 10 cards.</p>
+              <div class="match-card-grid" id="question-deck"></div>
+            </section>
+
+            <section class="match-column" aria-labelledby="answer-deck-title">
+              <div class="match-column-heading">
+                <span>Deck 02 · shuffled</span>
+                <h3 id="answer-deck-title">Answers</h3>
+              </div>
+              <p class="match-scroll-hint">Scroll this deck to browse all 10 cards.</p>
+              <div class="match-card-grid" id="answer-deck"></div>
+            </section>
+          </div>
+
+          <div class="match-actions">
+            <button class="btn btn-custom" id="check-match" type="button" disabled>
+              Check pair
+            </button>
+            <button class="match-reset" id="reset-match" type="button">
+              <i class="fas fa-redo-alt" aria-hidden="true"></i> Shuffle &amp; restart
+            </button>
+          </div>
+
+          <div class="match-complete" id="match-complete" hidden>
+            <p class="superfund-eyebrow">All ten matched</p>
+            <h2>You completed the Climate Superfund challenge.</h2>
+            <p id="match-summary"></p>
+            <div class="match-complete-actions">
+              <button class="btn btn-custom" id="play-again" type="button">Play again</button>
+              <a href="#debrief">Continue to the debrief</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <article class="superfund-article">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="superfund-article-header">
+                <p class="superfund-eyebrow">News &amp; Insights</p>
+                <h2>Learning from California's Climate Superfund proposals</h2>
+                <p class="superfund-standfirst">
+                  Who should help pay for climate damage? Two California bills
+                  proposed a new answer—and offer a useful case study in how
+                  environmental policy moves from an idea to legislation.
+                </p>
+              </div>
+
+              <figure class="superfund-feature-image">
+                <img
+                  src="img/iristem/public%20/PollutersPay.png"
+                  alt="A group of climate advocates holds signs calling for polluters to pay"
+                />
+                <figcaption>
+                  The proposed program connected historical fossil-fuel emissions
+                  with funding for climate resilience and recovery.
+                </figcaption>
+              </figure>
+
+              <h2>What the proposals aimed to do</h2>
+              <p>
+                California Assembly Bill 1243 and Senate Bill 684 were parallel
+                2025 proposals called the Polluters Pay Climate Superfund Act.
+                They would have required certain large fossil-fuel companies to
+                contribute toward California's climate-related costs based on
+                their share of covered global emissions.
+              </p>
+              <p>
+                The proposed California Environmental Protection Agency program
+                would have considered covered emissions released from 1990
+                through 2024. Companies above the proposed threshold—more than
+                one billion metric tons of covered worldwide emissions—would
+                have received a proportional share of the state's assessed
+                climate costs.
+              </p>
+
+              <aside class="superfund-fact-panel" aria-label="Proposal at a glance">
+                <p class="superfund-eyebrow">Proposal at a glance</p>
+                <div class="superfund-facts">
+                  <div><strong>1990–2024</strong><span>Covered emissions period</span></div>
+                  <div><strong>1B+</strong><span>Metric-ton threshold</span></div>
+                  <div><strong>40%+</strong><span>For disadvantaged communities</span></div>
+                  <div><strong>20</strong><span>Installments allowed</span></div>
+                </div>
+              </aside>
+
+              <h2>From climate costs to community projects</h2>
+              <p>
+                The bills called for a study of past and projected climate
+                damage from 1990 through 2045. Funds could then have supported
+                projects that prepare for, reduce, repair, or respond to
+                climate-related harm. At least 40% of program funding would
+                have directly benefited disadvantaged communities.
+              </p>
+              <p>
+                Those details turn an abstract policy question into choices
+                students can discuss: which harms count, how responsibility is
+                measured, who benefits first, and which local resilience
+                projects deserve priority?
+              </p>
+
+              <h2>A proposal is not a law</h2>
+              <p>
+                Neither bill became California law. California Legislative
+                Information lists
+                <a
+                  href="https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1243"
+                  target="_blank"
+                  rel="noopener"
+                  >AB 1243</a
+                >
+                and
+                <a
+                  href="https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260SB684"
+                  target="_blank"
+                  rel="noopener"
+                  >SB 684</a
+                >
+                as inactive bills that died during the 2025–2026 legislative
+                session. That status is part of the lesson: studying a proposal
+                means examining what lawmakers considered, not describing a
+                program currently in effect.
+              </p>
+
+              <section class="superfund-debrief" id="debrief">
+                <p class="superfund-eyebrow">Discuss after playing</p>
+                <h2>Debrief questions</h2>
+                <ol>
+                  <li>Which part of the proposal surprised you most, and why?</li>
+                  <li>
+                    Why might a climate program reserve funding for disadvantaged
+                    communities?
+                  </li>
+                  <li>
+                    Which local resilience project would you prioritize: wildfire
+                    protection, cleaner air, schools, flood protection, emergency
+                    response, homes, or urban trees?
+                  </li>
+                  <li>
+                    How is learning about a proposed bill different from learning
+                    about a law already in effect?
+                  </li>
+                </ol>
+              </section>
+
+              <p class="superfund-source-note">
+                Educational summary prepared by IRISTEM from the 2025 bill text
+                and official legislative status. Legislative information can
+                change; verify the linked records before reusing this activity.
+              </p>
+
+              <div class="text-center mt-5">
+                <a class="btn btn-custom" href="#matching-game">Play the game</a>
+                <a class="superfund-back-link" href="blog.html">More News &amp; Insights</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-contact">
+              <img class="footer-logo" src="img/iristem/logo.png" alt="IRISTEM logo" />
+              <p>
+                Student-led STEM nonprofit advancing environmental safety
+                through education, research, and community-based programs.
+              </p>
+              <p><i class="fa fa-phone-alt"></i><a href="tel:14084822895">(408) 482-2895</a></p>
+              <p><i class="fa fa-envelope"></i><a href="mailto:team@iristem.org">team@iristem.org</a></p>
+              <div class="footer-social">
+                <a class="btn btn-custom" href="https://www.instagram.com/iris_stem/" target="_blank" rel="noopener" aria-label="IRISTEM on Instagram"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-custom" href="https://www.linkedin.com/company/iristem/" target="_blank" rel="noopener" aria-label="IRISTEM on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Explore</h2>
+              <a href="about.html">About Us</a>
+              <a href="chapters.html">Chapters</a>
+              <a href="causes.html">Our Work</a>
+              <a href="blog.html">News</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-link">
+              <h2>Get Involved</h2>
+              <a href="donate.html">Donate</a>
+              <a href="volunteer.html">Volunteer</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScad4TtS_4LDWsPdylv04AKaeHRJljLycuk9DZI0wTatL8F2w/viewform?usp=header" target="_blank" rel="noopener">Start a Chapter</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8Svd1oJZq6-0HDybSGOanQmP0HwVrQAKguL8I0DltxocLtw/viewform?usp=publish-editor" target="_blank" rel="noopener">Join Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>&copy; <span class="current-year"></span> IRISTEM. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="back-to-top" aria-label="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    <div id="loader" class="show"><div class="loader"></div></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/climate-superfund-match.js"></script>
+    <script>
+      document.querySelectorAll(".current-year").forEach(function (el) {
+        el.textContent = new Date().getFullYear();
+      });
+    </script>
+  </body>
+</html>
