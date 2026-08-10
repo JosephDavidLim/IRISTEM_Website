@@ -3031,6 +3031,10 @@ p {
     transform: none;
 }
 
+.team .team-img--phi img {
+    object-position: 50% 50%;
+}
+
 .team .team-item:hover img {
     margin: 0;
     transform: none;
