@@ -693,6 +693,11 @@ a:focus {
     transition: transform .4s ease;
 }
 
+.causes .causes-img .svyca-community-photo,
+.blog .blog-img .svyca-community-photo {
+    object-position: center 34%;
+}
+
 .causes .causes-item:hover img,
 .blog .blog-item:hover img,
 .event .event-item:hover > img {
@@ -847,6 +852,48 @@ a:focus {
 
 .partner-thanks {
     color: var(--hybrid-forest);
+}
+
+.partner-spotlight {
+    max-width: 920px;
+    margin: 0 auto 48px;
+    padding: clamp(28px, 4vw, 46px);
+    display: grid;
+    grid-template-columns: minmax(150px, 220px) 1fr;
+    gap: clamp(28px, 5vw, 56px);
+    align-items: center;
+    background: var(--hybrid-paper);
+    border-top: 5px solid var(--hybrid-forest);
+}
+
+.partner-spotlight img {
+    width: 100%;
+    max-height: 170px;
+    object-fit: contain;
+}
+
+.partner-spotlight-label {
+    margin: 0 0 10px;
+    color: var(--hybrid-forest);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+}
+
+.partner-spotlight h3 {
+    margin: 0 0 12px;
+    color: var(--hybrid-ink);
+    font-family: var(--hybrid-serif);
+    font-size: clamp(30px, 4vw, 44px);
+    font-weight: 400;
+    letter-spacing: -.025em;
+    line-height: 1.05;
+}
+
+.partner-spotlight div > p:last-child {
+    margin: 0;
+    color: var(--hybrid-ink);
 }
 
 .resource-preview-img {
@@ -1236,6 +1283,10 @@ a:focus {
 
 .documentary-gallery figure:nth-child(3) img {
     object-position: center top;
+}
+
+.documentary-gallery figure:nth-child(3) .svyca-community-photo {
+    object-position: center 36%;
 }
 
 .documentary-gallery figcaption {
@@ -1849,6 +1900,16 @@ a:focus {
 
     .partners-grid {
         grid-template-columns: 1fr;
+    }
+
+    .partner-spotlight {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .partner-spotlight img {
+        max-width: 190px;
+        margin: 0 auto;
     }
 
     .field-gallery-card,
