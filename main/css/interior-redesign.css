@@ -984,7 +984,9 @@ a:focus {
 .chapter-logo img[src*="11_willow_glen"],
 .chapter-logo img[src*="14_college_park"],
 .chapter-logo img[src*="15_el_cerrito"],
-.chapter-logo img[src*="16_our_lady_of_good_counsel"] {
+.chapter-logo img[src*="16_our_lady_of_good_counsel"],
+.chapter-logo img[src*="22_woodford_county"],
+.chapter-logo img[src*="25_colegio_alexander_von_humboldt"] {
     transform: scale(1.75);
 }
 
