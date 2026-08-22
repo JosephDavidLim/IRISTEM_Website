@@ -1095,13 +1095,8 @@ a:focus {
     text-transform: uppercase;
 }
 
-.article-meta span {
-    padding-right: 14px;
-    border-right: 1px solid var(--hybrid-rule);
-}
-
 .article-meta time {
-    color: var(--hybrid-muted);
+    color: var(--hybrid-forest);
 }
 
 .single .single-content .article-intro {
