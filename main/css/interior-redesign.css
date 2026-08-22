@@ -727,6 +727,21 @@ a:focus {
     text-decoration: underline;
 }
 
+.blog .blog-meta {
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin: 0 28px 22px;
+    padding-top: 16px;
+}
+
+.blog .blog-meta p,
+.blog .blog-meta p:first-child,
+.blog .blog-meta p:last-child {
+    padding: 0;
+    border: 0;
+    font-size: 12px;
+}
+
 .causes .causes-btn {
     margin-top: auto;
 }
@@ -1066,6 +1081,42 @@ a:focus {
 
 .single .single-content > img {
     margin: 10px 0 36px;
+}
+
+.article-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
+    color: var(--hybrid-forest);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.article-meta span {
+    padding-right: 14px;
+    border-right: 1px solid var(--hybrid-rule);
+}
+
+.article-meta time {
+    color: var(--hybrid-muted);
+}
+
+.single .single-content .article-intro {
+    margin-bottom: 32px;
+    color: var(--hybrid-ink);
+    font-family: var(--hybrid-serif);
+    font-size: clamp(21px, 2.5vw, 27px);
+    line-height: 1.45;
+}
+
+.single .single-content > img.article-hero {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    margin-top: 0;
+    object-fit: cover;
 }
 
 .single .single-content h2,
