@@ -69,6 +69,34 @@ a:focus {
     color: var(--hybrid-forest);
 }
 
+.climate-collaboration-note {
+    max-width: 900px;
+    margin: 0 auto 36px;
+    padding: 18px 22px;
+    color: var(--hybrid-forest-dark);
+    background: rgba(255, 255, 255, .68);
+    border-left: 4px solid var(--hybrid-lime);
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.climate-collaboration-note a {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.superfund-intro + .climate-collaboration-note {
+    margin-top: -18px;
+}
+
+.cg-intro .climate-collaboration-note {
+    margin-top: 24px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
 .container,
 .navbar .container-fluid {
     width: min(100% - 80px, 1260px);
