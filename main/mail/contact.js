@@ -1,65 +1,69 @@
-$(function () {
+(function () {
+  "use strict";
 
-    $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function ($form, event, errors) {
-        },
-        submitSuccess: function ($form, event) {
-            event.preventDefault();
-            var name = $("input#name").val();
-            var email = $("input#email").val();
-            var subject = $("input#subject").val();
-            var message = $("textarea#message").val();
+  var form = document.getElementById("contactForm");
 
-            $this = $("#sendMessageButton");
-            $this.prop("disabled", true);
+  if (!form || !form.hasAttribute("data-netlify")) {
+    return;
+  }
 
-            $.ajax({
-                url: "contact.php",
-                type: "POST",
-                data: {
-                    name: name,
-                    email: email,
-                    subject: subject,
-                    message: message
-                },
-                cache: false,
-                success: function () {
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                            .append("</button>");
-                    $('#success > .alert-success')
-                            .append("<strong>Your message has been sent. </strong>");
-                    $('#success > .alert-success')
-                            .append('</div>');
-                    $('#contactForm').trigger("reset");
-                },
-                error: function () {
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                            .append("</button>");
-                    $('#success > .alert-danger').append($("<strong>").text("Sorry " + name + ", it seems that our mail server is not responding. Please try again later!"));
-                    $('#success > .alert-danger').append('</div>');
-                    $('#contactForm').trigger("reset");
-                },
-                complete: function () {
-                    setTimeout(function () {
-                        $this.prop("disabled", false);
-                    }, 1000);
-                }
-            });
-        },
-        filter: function () {
-            return $(this).is(":visible");
-        },
+  var submitButton = document.getElementById("sendMessageButton");
+  var status = document.getElementById("contactFormStatus");
+  var defaultButtonText = submitButton.textContent.trim();
+
+  function encodeForm(formData) {
+    var params = new URLSearchParams();
+
+    formData.forEach(function (value, key) {
+      params.append(key, value);
     });
 
-    $("a[data-toggle=\"tab\"]").click(function (e) {
-        e.preventDefault();
-        $(this).tab("show");
-    });
-});
+    return params.toString();
+  }
 
-$('#name').focus(function () {
-    $('#success').html('');
-});
+  function showStatus(message, type) {
+    status.className = "mt-3 alert alert-" + type;
+    status.textContent = message;
+  }
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    submitButton.disabled = true;
+    submitButton.textContent = "Sending...";
+    status.className = "mt-3";
+    status.textContent = "";
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encodeForm(new FormData(form)),
+    })
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("Form submission failed");
+        }
+
+        form.reset();
+        showStatus(
+          "Thanks — your message has been sent to the IRISTEM team.",
+          "success",
+        );
+      })
+      .catch(function () {
+        showStatus(
+          "We couldn't send your message. Please try again or email team@iristem.org.",
+          "danger",
+        );
+      })
+      .finally(function () {
+        submitButton.disabled = false;
+        submitButton.textContent = defaultButtonText;
+      });
+  });
+})();
