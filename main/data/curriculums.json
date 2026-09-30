@@ -9,14 +9,19 @@
     "sourceUrl": "https://storymaps.arcgis.com/stories/6dccd4993a1d4b01a07fd4628ce84c71",
     "pages": 6,
     "pdfBytes": 2570310,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "image": "img/curriculum-stock/t0p25Scs24I.jpg",
     "grades": [
       "6-8",
       "9-12"
     ],
     "gradeBasis": "suggested",
     "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
-    "imageTile": 0
+    "photoCredit": {
+      "photographer": "Bruce Barrow",
+      "sourceUrl": "https://unsplash.com/photos/t0p25Scs24I",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "exploring-climate-vulnerability-in-coulibistrie-dominica",
@@ -66,14 +71,19 @@
     "sourceUrl": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1291165/full",
     "pages": 5,
     "pdfBytes": 2767962,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "image": "img/curriculum-stock/4ZCA3xukIso.jpg",
     "grades": [
       "6-8",
       "9-12"
     ],
     "gradeBasis": "suggested",
     "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
-    "imageTile": 3
+    "photoCredit": {
+      "photographer": "Wynand Uys",
+      "sourceUrl": "https://unsplash.com/photos/4ZCA3xukIso",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "accessing-climate-and-science-discourse-digital-platforms-and-community-standards",
@@ -85,14 +95,19 @@
     "sourceUrl": "https://theconversation.com/profiles/kevin-trenberth-15259/dashboard#",
     "pages": 5,
     "pdfBytes": 2404082,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "image": "img/curriculum-stock/BkwzVF6mHdc.jpg",
     "grades": [
       "6-8",
       "9-12"
     ],
     "gradeBasis": "suggested",
     "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
-    "imageTile": 4
+    "photoCredit": {
+      "photographer": "Brandy Kennedy; photographer Kieana Rochelle Mainor",
+      "sourceUrl": "https://unsplash.com/photos/BkwzVF6mHdc",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "understanding-climate-health-the-fuel-behind-hurricane-sandy",
@@ -394,13 +409,18 @@
     "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/evaluating-climate-and-health-interventions-to-maximize-benefits/",
     "pages": 5,
     "pdfBytes": 2306905,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "image": "img/curriculum-stock/QX-6LSSMvJk.jpg",
     "grades": [
       "9-12"
     ],
     "gradeBasis": "suggested",
     "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
-    "imageTile": 6
+    "photoCredit": {
+      "photographer": "Tuccera LLC",
+      "sourceUrl": "https://unsplash.com/photos/QX-6LSSMvJk",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "connecting-environments-to-human-health-a-research-based-curriculum-module",
@@ -535,13 +555,18 @@
     "sourceUrl": "https://hsph.harvard.edu/climate-health-c-change/news/climate-smart-public-health-a-blueprint-for-resilient-health-systems/",
     "pages": 5,
     "pdfBytes": 2135999,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "image": "img/curriculum-stock/aNTsx7Fl4T0.jpg",
     "grades": [
       "9-12"
     ],
     "gradeBasis": "suggested",
     "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
-    "imageTile": 10
+    "photoCredit": {
+      "photographer": "Beatriz Cattel",
+      "sourceUrl": "https://unsplash.com/photos/aNTsx7Fl4T0",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "unpacking-the-climate-signals-of-2015-el-ni-o-greenhouse-gases-and-extreme-weather",
@@ -591,14 +616,19 @@
     "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/outreach/climate-md/",
     "pages": 5,
     "pdfBytes": 2232758,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "image": "img/curriculum-stock/m6uT_NJKHTo.jpg",
     "grades": [
       "6-8",
       "9-12"
     ],
     "gradeBasis": "suggested",
     "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
-    "imageTile": 8
+    "photoCredit": {
+      "photographer": "Nappy",
+      "sourceUrl": "https://unsplash.com/photos/m6uT_NJKHTo",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "climate-creators-to-watch-changing-the-narrative-online",
@@ -610,14 +640,19 @@
     "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/outreach/climate-creators-to-watch/",
     "pages": 5,
     "pdfBytes": 2227530,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "image": "img/curriculum-stock/qoJpt9Ja6y0.jpg",
     "grades": [
       "6-8",
       "9-12"
     ],
     "gradeBasis": "suggested",
     "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
-    "imageTile": 9
+    "photoCredit": {
+      "photographer": "Mikey Rogers",
+      "sourceUrl": "https://unsplash.com/photos/qoJpt9Ja6y0",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "averages-vs-extremes-rethinking-climate-health-and-weather",
@@ -1088,14 +1123,19 @@
     "sourceCitation": "",
     "pages": 4,
     "pdfBytes": 16762753,
-    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
-    "imageTile": 11,
+    "image": "img/curriculum-stock/KAz0B4tky5o.jpg",
     "grades": [
       "3-5",
       "6-8"
     ],
     "gradeBasis": "suggested",
-    "gradeNote": "Suggested teaching range based on the reading, vocabulary, and classroom activity. Younger students may benefit from teacher-guided reading."
+    "gradeNote": "Suggested teaching range based on the reading, vocabulary, and classroom activity. Younger students may benefit from teacher-guided reading.",
+    "photoCredit": {
+      "photographer": "Vitaly Gariev",
+      "sourceUrl": "https://unsplash.com/photos/KAz0B4tky5o",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license"
+    }
   },
   {
     "slug": "when-earth-moves-modeling-earthquakes-and-tsunamis",

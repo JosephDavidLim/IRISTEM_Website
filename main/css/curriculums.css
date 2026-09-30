@@ -88,3 +88,5 @@
 @media (max-width: 1199px) { .curriculum-toolbar { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr) auto; } .curriculum-search { grid-column: 1 / -1; } }
 @media (max-width: 767px) { .curriculum-toolbar { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 400px) { .curriculum-toolbar { grid-template-columns: minmax(0, 1fr); } }
+.curriculum-photo-credit { margin-top: 20px; font-size: 12px; color: #4d5750; }
+.curriculum-photo-credit a { text-decoration: underline; text-underline-offset: 3px; }

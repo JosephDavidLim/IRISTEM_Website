@@ -29,6 +29,8 @@ def grade_label(item):
 def artwork(item):
     if 'imageTile' in item:
         tile = item['imageTile']
+        if tile not in {1, 2, 5, 7, 12, 13, 14, 15}:
+            raise ValueError('Use licensed stock photography for people; this atlas tile is retired.')
         return f'<span class="curriculum-generated-art" style="--art-x: {(tile % 4) * 100 / 3:.6f}%; --art-y: {(tile // 4) * 100 / 3:.6f}%"></span>'
     return f'<img src="{escape(item["image"], quote=True)}" alt="" width="800" height="450" loading="lazy" decoding="async">'
 
@@ -44,6 +46,8 @@ for item in ITEMS:
     citation = escape(item.get('sourceCitation', '')) or f'This curriculum draws on material from {host}.'
     source_link = f'<a href="{source}" target="_blank" rel="noopener">Read the original source <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>' if source else ''
     grade_heading = 'Grade level' if item.get('gradeBasis') == 'explicit' else 'Suggested grade level'
+    credit = item.get('photoCredit')
+    photo_credit = f'<p class="curriculum-photo-credit">Card photo: <a href="{escape(credit["sourceUrl"], quote=True)}" target="_blank" rel="noopener">{escape(credit["photographer"])} / Unsplash</a> · <a href="{escape(credit["licenseUrl"], quote=True)}" target="_blank" rel="noopener">{escape(credit["license"])}</a></p>' if credit else ''
     cards.append(f'''<article class="curriculum-card" data-topics="{escape('|'.join(item['topics']), quote=True)}" data-grades="{'|'.join(item['grades'])}" data-title="{escape(item['title'], quote=True)}">
       <a class="curriculum-cover" href="{page}" tabindex="-1" aria-hidden="true">{artwork(item)}</a>
       <div class="curriculum-card-body">
@@ -71,7 +75,7 @@ for item in ITEMS:
           <h2>A closer look</h2>
           <p>{summary}</p>
           <div class="curriculum-grade-info"><h3>{grade_heading}</h3><p>{grade_label(item)}</p><p class="curriculum-grade-note">{escape(item['gradeNote'])}</p></div>
-          <div class="curriculum-source"><h3>Source material</h3><p>{citation}</p>{source_link}</div>
+          <div class="curriculum-source"><h3>Source material</h3><p>{citation}</p>{source_link}</div>{photo_credit}
         </article>
         <aside class="curriculum-resource-panel" aria-labelledby="resources-title">
           <p class="curriculum-eyebrow">Ready for your classroom</p>
