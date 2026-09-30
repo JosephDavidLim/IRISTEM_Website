@@ -1,0 +1,1182 @@
+[
+  {
+    "slug": "exploring-coastal-geography-pile-bay-barbados",
+    "title": "Exploring Coastal Geography: Pile Bay, Barbados",
+    "summary": "Pile Bay is a small fishing village on the west coast of Barbados, where every home lies within 450 meters of the sea. Researchers from Northeastern University's Global Resilience Institute and the University of the West Indies worked with residents to map the community's strengths, its exposure to storms and sea-level rise, and the everyday barriers that make recovery harder. This lesson uses their StoryMap to explore how geography shapes climate risk.",
+    "topics": [
+      "Community resilience"
+    ],
+    "sourceUrl": "https://storymaps.arcgis.com/stories/6dccd4993a1d4b01a07fd4628ce84c71",
+    "pages": 6,
+    "pdfBytes": 2570310,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 0
+  },
+  {
+    "slug": "exploring-climate-vulnerability-in-coulibistrie-dominica",
+    "title": "Exploring Climate Vulnerability in Coulibistrie, Dominica",
+    "summary": "Coulibistrie is a village of about 423 people on the west coast of Dominica, tucked into a river valley between steep mountains and the Caribbean Sea. After Tropical Storm Erika in 2015 and Hurricane Maria in 2017, residents are still rebuilding. Researchers used community sessions and geospatial mapping to understand why some places struggle to recover and how neighbors, local businesses, and outside partners can build resilience together.",
+    "topics": [
+      "Community resilience"
+    ],
+    "sourceUrl": "https://storymaps.arcgis.com/stories/1b49c1a74cab42b8b7897044cf8501d2",
+    "pages": 6,
+    "pdfBytes": 2256868,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 1
+  },
+  {
+    "slug": "exploring-localized-climate-health-a-case-study-of-crab-hill-barbados",
+    "title": "Exploring Localized Climate Health: A Case Study of Crab Hill, Barbados",
+    "summary": "Crab Hill is a quiet farming community of about 662 people at the northern tip of Barbados. Researchers worked with residents to understand how flooding, invasive seaweed, poor roads, and unreliable water affect daily life and health. This lesson shows how a local case study can reveal the ways climate change and infrastructure combine to shape a community's well-being.",
+    "topics": [
+      "Community resilience"
+    ],
+    "sourceUrl": "https://storymaps.arcgis.com/stories/d0081be96ae64e3d8a01f27e9c5214f9",
+    "pages": 5,
+    "pdfBytes": 2510248,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 2
+  },
+  {
+    "slug": "bridging-the-gap-climate-data-and-community-water-resilience",
+    "title": "Bridging the Gap: Climate Data and Community Water Resilience",
+    "summary": "Flooding is the costliest type of disaster in the United States, and climate change is making it more frequent and severe. NOAA's National Water Model can forecast river and stream conditions across the country, but few community planners use it. Researchers interviewed 95 people in seven U.S. communities to learn why, and worked with them to recommend how climate data tools can become more useful for the people planning for floods.",
+    "topics": [
+      "Community resilience"
+    ],
+    "sourceUrl": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1291165/full",
+    "pages": 5,
+    "pdfBytes": 2767962,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 3
+  },
+  {
+    "slug": "accessing-climate-and-science-discourse-digital-platforms-and-community-standards",
+    "title": "Accessing Climate and Science Discourse: Digital Platforms and Community Standards",
+    "summary": "Many climate scientists share their research directly with the public through online platforms such as The Conversation. This lesson uses the author page of climate scientist Kevin Trenberth and the platform's community standards to explore how readers can find trustworthy science online, judge an author's expertise, and take part in respectful debate about climate change.",
+    "topics": [
+      "Communication & education"
+    ],
+    "sourceUrl": "https://theconversation.com/profiles/kevin-trenberth-15259/dashboard#",
+    "pages": 5,
+    "pdfBytes": 2404082,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 4
+  },
+  {
+    "slug": "understanding-climate-health-the-fuel-behind-hurricane-sandy",
+    "title": "Understanding Climate Health: The Fuel Behind Hurricane Sandy",
+    "summary": "In October 2012, Hurricane Sandy threatened the densely populated U.S. East Coast. Writing as the storm approached, climate scientist Kevin Trenberth explained how natural weather set up a huge, intense storm, and how global warming added fuel through warmer oceans, a moister atmosphere, and higher seas. This lesson explores how climate change can make a single storm more dangerous.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AA.dumnngn6v",
+    "pages": 5,
+    "pdfBytes": 2218239,
+    "image": "img/curriculum-graphics/lesson-graphic-28afd0587982.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "rapid-response-to-heat-waves-using-electronic-health-records-to-protect-patients-in-near-real-time",
+    "title": "Rapid Response to Heat Waves: Using Electronic Health Records to Protect Patients in Near-Real Time",
+    "summary": "Public health officials often wait months to learn who was harmed during a heat wave. A 2026 study led by Harvard Chan C-CHANGE and Boston University showed that electronic health records can reveal heat's health impacts within about a week. By analyzing 8.1 million emergency department visits, researchers found that roughly 1 in 10 visits on extreme heat days were caused by high temperatures.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/climate-health-c-change/news/rapid-response-to-heat-waves-using-electronic-health-records-to-protect-patients-in-near-real-time/",
+    "pages": 5,
+    "pdfBytes": 2214149,
+    "image": "img/curriculum-graphics/lesson-graphic-7a58cf563e15.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "evaluating-scientific-confidence-a-case-study-of-climate-reports-and-peer-review",
+    "title": "Evaluating Scientific Confidence: A Case Study of Climate Reports and Peer Review",
+    "summary": "In late 2012, a draft of the Intergovernmental Panel on Climate Change's fifth assessment report was leaked online before review was complete. Part of it was quickly misrepresented. This lesson uses the incident to explore how scientists express confidence, why peer review matters, and how taking a sentence out of context can distort what science actually says.",
+    "topics": [
+      "Communication & education"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AA.y45975jwk",
+    "pages": 5,
+    "pdfBytes": 2161115,
+    "image": "img/curriculum-graphics/lesson-graphic-98530ee69714.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "helping-copd-patients-breathe-easier-environmental-health-and-clinical-trials",
+    "title": "Helping COPD Patients Breathe Easier: Environmental Health and Clinical Trials",
+    "summary": "Chronic obstructive pulmonary disease (COPD) is an incurable lung disease made worse by air pollution. Researchers at Harvard Chan C-CHANGE discovered that patients with an inflammatory type called eosinophilic COPD are especially sensitive to polluted air. They are now running a randomized controlled trial in Boston to test whether HEPA air purifiers can improve these patients' symptoms and lung function.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/helping-copd-patients-breathe-easier/",
+    "pages": 5,
+    "pdfBytes": 2106060,
+    "image": "img/curriculum-graphics/lesson-graphic-8d35f19bbb0a.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climate-resilience-for-frontline-clinics-and-the-patients-they-serve",
+    "title": "Climate Resilience for Frontline Clinics and the Patients They Serve",
+    "summary": "Heat waves, wildfires, hurricanes, and floods are disrupting health care and harming patients. Harvard Chan C-CHANGE works with frontline clinics, which serve highly affected communities, to create practical tools that keep patients safe. This lesson explores how researchers used surveys, pilot testing, and feedback to build a climate resilience toolkit, heat alerts, and action plans for clinics across the United States.",
+    "topics": [
+      "Community resilience",
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/outreach/building-climate-resilient-healthcare-clinics/",
+    "pages": 5,
+    "pdfBytes": 2902410,
+    "image": "img/curriculum-graphics/lesson-graphic-9e673247eafa.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unabated-warming-where-does-earth-s-excess-heat-go-during-surface-temperature-hiatuses",
+    "title": "Unabated Warming: Where Does Earth's Excess Heat Go During Surface Temperature Hiatuses?",
+    "summary": "In 2013, many people asked whether global warming had stalled, because global average surface temperatures were rising more slowly than before. Climate scientist Kevin Trenberth explained that warming really means heating, and most of that heat goes into the ocean. His team found that in the previous decade about 30% of the heat had been carried below 700 meters deep, temporarily slowing surface warming but not stopping climate change.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AB.hf49n9mx5",
+    "pages": 5,
+    "pdfBytes": 2351889,
+    "image": "img/curriculum-graphics/lesson-graphic-bbae17ac9c63.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "teaching-climate-and-health-preparing-the-next-generation-of-medical-professionals",
+    "title": "Teaching Climate and Health: Preparing the Next Generation of Medical Professionals",
+    "summary": "Doctors and nurses are often the first to see how climate change harms people, yet few have been trained to recognize it. Harvard Chan C-CHANGE develops and evaluates curricula that prepare health professionals to identify and address climate-related health impacts. This lesson explores the first residency curriculum on climate and health, community organizing training for clinicians, and why climate knowledge is now part of being a good doctor.",
+    "topics": [
+      "Health & well-being",
+      "Communication & education"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/teaching-climate-and-health/",
+    "pages": 5,
+    "pdfBytes": 2435010,
+    "image": "img/curriculum-graphics/lesson-graphic-e3dfb368c92f.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "coping-with-multiple-climate-challenges-in-the-mystic-river-watershed",
+    "title": "Coping with Multiple Climate Challenges in the Mystic River Watershed",
+    "summary": "Climate change is a risk multiplier: heat, flooding, chemical pollution, and traffic exhaust can strike the same community at once. Researchers from Harvard Chan C-CHANGE and Boston University are working with residents, local officials, and community groups in the Mystic River Watershed near Boston to identify who is most at risk from these cumulative hazards and which solutions would protect health most.",
+    "topics": [
+      "Community resilience",
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/helping-communities-in-the-mystic-river-watershed-area-cope-with-multiple-climate-challenges/",
+    "pages": 6,
+    "pdfBytes": 2499214,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 5
+  },
+  {
+    "slug": "re-engineering-climate-science-communication-the-future-of-ipcc-reporting",
+    "title": "Re-Engineering Climate Science Communication: The Future of IPCC Reporting",
+    "summary": "Since 1990, the Intergovernmental Panel on Climate Change (IPCC) has produced major assessments of climate science about every six years. In 2013, as the fifth assessment was released, climate scientist Kevin Trenberth argued that the IPCC should declare success and change its approach. This lesson explores how IPCC reports are made, what they achieved, and why a faster, continuous stream of climate information may now be needed.",
+    "topics": [
+      "Communication & education"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AA.rg4fq6hmf",
+    "pages": 5,
+    "pdfBytes": 2152344,
+    "image": "img/curriculum-graphics/lesson-graphic-5be7f07c3d3a.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "restoring-marine-ecosystems-and-human-health-artificial-reefs-in-madagascar",
+    "title": "Restoring Marine Ecosystems and Human Health: Artificial Reefs in Madagascar",
+    "summary": "Coral reefs feed millions of people, but Madagascar's reefs have lost 30 to 50% of their coral cover since 1998. The Health Impacts of Artificial Reef Advancement (HIARA) project, led by Harvard Chan C-CHANGE with local partners, is testing whether rebuilding reefs in the Bay of Ranobe can restore marine life, strengthen fisheries, and improve the nutrition and health of nearby communities.",
+    "topics": [
+      "Community resilience",
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/artificial-reefs-to-support-human-nutrition/",
+    "pages": 5,
+    "pdfBytes": 2222784,
+    "image": "img/curriculum-graphics/lesson-graphic-e6d315453920.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "building-community-driven-climate-resilience-in-west-bengal",
+    "title": "Building Community-Driven Climate Resilience in West Bengal",
+    "summary": "In 2020, a cyclone struck West Bengal, India, causing $13 billion in damage. For coastal villages, storms like this close schools, spread disease, ruin farmland, and harm mental health. Harvard Chan C-CHANGE and local partners are developing a community-driven approach to climate resilience that starts by listening to residents, especially young people, and then designs and tests solutions with them.",
+    "topics": [
+      "Community resilience",
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/building-community-driven-climate-resilience-in-west-bengal/",
+    "pages": 5,
+    "pdfBytes": 2240771,
+    "image": "img/curriculum-graphics/lesson-graphic-5dde5645f12f.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unpacking-the-climate-hiatus-where-did-the-global-warming-heat-go",
+    "title": "Unpacking the Climate Hiatus: Where Did the Global Warming Heat Go?",
+    "summary": "Between 2009 and 2014, several harsh winters in Europe and the eastern United States led people to ask, \"Where is global warming?\" Climate scientist Kevin Trenberth explained that these cold spots covered only about 2% of the globe, while the Arctic was unusually warm. His research traced the pattern to the tropical Pacific, where changes in the ocean and atmosphere sent waves through the jet stream and carried heat deep into the ocean.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AAI.9pkxwx3tf",
+    "pages": 6,
+    "pdfBytes": 4626208,
+    "image": "img/curriculum-graphics/lesson-graphic-9ca803ff4cef.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "centering-community-voices-in-climate-solutions",
+    "title": "Centering Community Voices in Climate Solutions",
+    "summary": "Climate and health programs are often designed without asking the people they are meant to help. Researchers at Harvard Chan C-CHANGE, led by Shoba Ramanadhan, are changing that by bringing community engagement and implementation science into climate and health research. Working with partners in Massachusetts and India, they help communities define the problems, decide what success looks like, and build solutions that last.",
+    "topics": [
+      "Community resilience",
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/centering-community-voices-in-climate-solutions/",
+    "pages": 5,
+    "pdfBytes": 2037822,
+    "image": "img/curriculum-graphics/lesson-graphic-98124262f7b7.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "protecting-health-in-a-warming-world-how-c-earth-tests-local-solutions",
+    "title": "Protecting Health in a Warming World: How C-EARTH Tests Local Solutions",
+    "summary": "Extreme heat harms health directly and threatens food and water supplies, especially in communities that have experienced disinvestment. The Center for Effective and Accessible Research-based Testing for Health (C-EARTH) tests practical ways to protect people from heat in Boston, South Africa, and Madagascar. Each solution is chosen with local partners to fit the community's most pressing needs.",
+    "topics": [
+      "Community resilience",
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/c-earth/",
+    "pages": 5,
+    "pdfBytes": 2119064,
+    "image": "img/curriculum-graphics/lesson-graphic-46b156022501.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climate-smart-public-health-connecting-environment-and-well-being",
+    "title": "Climate-Smart Public Health: Connecting Environment and Well-Being",
+    "summary": "Public health data and climate data have usually been kept in separate systems, making it hard to predict how environmental changes will affect people's health. Harvard Chan researchers led by Christopher Golden are building an integrated data platform in Madagascar that combines climate, environmental, agricultural, and health information. The goal is early warning systems that help health officials act before climate-related illness strikes.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/climate-smart-public-health/",
+    "pages": 5,
+    "pdfBytes": 2143176,
+    "image": "img/curriculum-graphics/lesson-graphic-ee4d78466443.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "global-warming-and-winter-snowstorms-the-moisture-paradox",
+    "title": "Global Warming and Winter Snowstorms: The Moisture Paradox",
+    "summary": "If the planet is warming, why are some snowstorms getting bigger? In early 2015, after a blizzard buried parts of New England under more than three feet of snow, climate scientist Kevin Trenberth explained the physics. Warmer oceans and air add moisture to winter storms, so mid-winter snowfalls can grow heavier, even as the snow season shrinks at both ends.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/does-global-warming-mean-more-or-less-snow-36936",
+    "pages": 6,
+    "pdfBytes": 5175967,
+    "image": "img/curriculum-graphics/lesson-graphic-60afdee2ccc3.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "maximizing-net-benefits-evaluating-climate-and-health-interventions",
+    "title": "Maximizing Net Benefits: Evaluating Climate and Health Interventions",
+    "summary": "Climate problems are enormous, but money and resources are limited. How should leaders choose which solutions to fund? Researchers at Harvard Chan C-CHANGE, led by Lisa Robinson, use benefit-cost analysis to compare climate and health interventions systematically. Their work helps governments, funders, and advocates find the investments that do the most good.",
+    "topics": [
+      "Health & well-being",
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/evaluating-climate-and-health-interventions-to-maximize-benefits/",
+    "pages": 5,
+    "pdfBytes": 2306905,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 6
+  },
+  {
+    "slug": "connecting-environments-to-human-health-a-research-based-curriculum-module",
+    "title": "Connecting Environments to Human Health: A Research-Based Curriculum Module",
+    "summary": "Environmental health research explores how climate change, pollution, and environmental injustice affect people's health, and then develops solutions. This lesson uses Harvard T.H. Chan School of Public Health's Environment and Climate Health research area as a map of the field, with two recent examples: predicting the health impacts of new data centers, and protecting people from wildfire smoke.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/topic/environment-climate-health/",
+    "pages": 6,
+    "pdfBytes": 2678914,
+    "image": "img/curriculum-graphics/lesson-graphic-8fe16afdce72.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "evaluating-competing-claims-on-ice-sheet-melting-and-sea-level-rise",
+    "title": "Evaluating Competing Claims on Ice Sheet Melting and Sea Level Rise",
+    "summary": "In 2015, a study led by former NASA scientist James Hansen argued that Greenland and Antarctica could melt fast enough to raise sea levels by several meters this century. Climate scientist Kevin Trenberth found the study provocative and intriguing but built on too many assumptions. This lesson uses their disagreement to explore how scientists evaluate bold claims, models, and evidence.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/study-predicts-multi-meter-sea-level-rise-this-century-but-not-everyone-agrees-45139?",
+    "pages": 5,
+    "pdfBytes": 2449109,
+    "image": "img/curriculum-graphics/lesson-graphic-f677e1b2e562.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "investigating-climate-health-new-research-on-air-pollution-and-extreme-heat",
+    "title": "Investigating Climate Health: New Research on Air Pollution and Extreme Heat",
+    "summary": "In 2026, researchers at Harvard T.H. Chan School of Public Health launched three new projects funded by Wellcome, a London-based health research foundation. One studies how fossil fuel air pollution drives disease, another measures the health benefits of fighting climate change in India, and a third tracks how extreme heat affects women who work in India's informal economy. Together they show how climate health research moves from the lab to communities to policy.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/news/researchers-launch-new-climate-health-projects-with-wellcome-support/",
+    "pages": 5,
+    "pdfBytes": 2331405,
+    "image": "img/curriculum-graphics/lesson-graphic-2669d39b6310.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "healing-the-planet-and-patients-evaluating-a-new-climate-and-health-curriculum",
+    "title": "Healing the Planet and Patients: Evaluating a New Climate and Health Curriculum",
+    "summary": "In 2023, Harvard Medical School began weaving lessons on climate change, environment, and health into its existing courses. A 17-month evaluation published in PLOS Climate in 2025 found that first-year medical students greatly improved their knowledge of climate-related health and equity topics. This lesson explores how researchers measured the curriculum's impact and what it means for training future doctors.",
+    "topics": [
+      "Health & well-being",
+      "Communication & education"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/climate-health-c-change/news/students-report-major-success-of-new-climate-and-health-curriculum-at-harvard-medical-school/",
+    "pages": 5,
+    "pdfBytes": 2128918,
+    "image": "img/curriculum-graphics/lesson-graphic-98d0f29c52a2.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unpacking-the-climate-hiatus-why-global-warming-rises-in-steps",
+    "title": "Unpacking the Climate 'Hiatus': Why Global Warming Rises in Steps",
+    "summary": "By mid-2015, global temperatures were breaking records again after a period when surface warming had slowed. Climate scientist Kevin Trenberth asked whether the hiatus was over. His analysis showed that a natural Pacific pattern, the Pacific Decadal Oscillation, controls where the ocean stores extra heat, making the global temperature record look less like a smooth ramp and more like a rising staircase.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/is-the-global-warming-hiatus-over-45995",
+    "pages": 6,
+    "pdfBytes": 4093741,
+    "image": "img/curriculum-graphics/lesson-graphic-03186793b34e.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unraveling-el-ni-o-ocean-atmosphere-interactions-and-global-climate-impacts",
+    "title": "Unraveling El Niño: Ocean-Atmosphere Interactions and Global Climate Impacts",
+    "summary": "In late 2015, the world was experiencing only the third super El Niño on record. Climate scientist Kevin Trenberth explained what El Niño is, why it happens, and how it reshapes weather around the globe, from typhoons in the Pacific to floods in India and rain in California. He also explained how global warming amplifies El Niño's effects.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AAI.4f4ve77g6",
+    "pages": 6,
+    "pdfBytes": 3239164,
+    "image": "img/curriculum-graphics/lesson-graphic-033cb68480c5.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "what-makes-us-unwittingly-share-climate-misinformation-online",
+    "title": "What Makes Us Unwittingly Share Climate Misinformation Online?",
+    "summary": "Social media is full of false claims about climate change, and even well-meaning users can spread them. A 2025 study co-authored by Harvard Chan C-CHANGE visiting scholar Muhammad Ittefaq tested how 320 people judged false climate posts. It found that posts that looked expert, long, or popular seemed more believable and were more likely to be shared, and that people sometimes shared posts they did not even believe.",
+    "topics": [
+      "Communication & education"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/climate-health-c-change/news/what-makes-us-unwittingly-share-climate-misinformation-online/",
+    "pages": 5,
+    "pdfBytes": 2181276,
+    "image": "img/curriculum-graphics/lesson-graphic-5ebe40741f11.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climate-smart-public-health-a-blueprint-for-resilient-health-systems",
+    "title": "Climate-Smart Public Health: A Blueprint for Resilient Health Systems",
+    "summary": "In a 2025 article in The Lancet Planetary Health, Harvard Chan researcher Christopher Golden introduced Climate-Smart Public Health, a data-driven framework built on four pillars: surveillance, risk assessment, early warning, and resilient health infrastructure. Using Madagascar as a proving ground, the article offers a blueprint that governments anywhere can adopt to protect people from climate-related health threats.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/climate-health-c-change/news/climate-smart-public-health-a-blueprint-for-resilient-health-systems/",
+    "pages": 5,
+    "pdfBytes": 2135999,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 10
+  },
+  {
+    "slug": "unpacking-the-climate-signals-of-2015-el-ni-o-greenhouse-gases-and-extreme-weather",
+    "title": "Unpacking the Climate Signals of 2015: El Niño, Greenhouse Gases, and Extreme Weather",
+    "summary": "NASA and NOAA data showed that 2015 was the hottest year on record by far, beating 2014 by perhaps the largest margin ever. Climate scientist Kevin Trenberth explained how rising greenhouse gases and a very strong El Niño combined to produce a year of record heat waves, droughts, wildfires, floods, and storms around the world, offering a glimpse of what may be routine within about 15 years.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AAI.5g5msartv",
+    "pages": 6,
+    "pdfBytes": 3015021,
+    "image": "img/curriculum-graphics/lesson-graphic-38899c64000a.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "examining-past-projects-in-climate-health-and-energy",
+    "title": "Examining Past Projects in Climate, Health, and Energy",
+    "summary": "For over 25 years, the Harvard Chan Center for Climate, Health, and the Global Environment has produced research connecting energy, climate, and human health. This lesson surveys its past projects, from finding that fossil fuel air pollution causes 1 in 5 deaths worldwide to measuring pollutants in gas stoves and calculating how cheaply pandemics could be prevented, and asks what they reveal about the health case for climate action.",
+    "topics": [
+      "Health & well-being",
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/research/past-projects/",
+    "pages": 5,
+    "pdfBytes": 2278412,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 7
+  },
+  {
+    "slug": "climate-md-bridging-climate-science-and-patient-health",
+    "title": "Climate MD: Bridging Climate Science and Patient Health",
+    "summary": "When Hurricane Maria struck Puerto Rico in 2017, it put the supply chain for intravenous saline out of commission, causing national shortages of a backbone of basic medical care. Climate MD, a Harvard Chan C-CHANGE program, helps doctors, nurses, and other providers understand how climate change affects their patients and their ability to deliver care, and empowers them to act.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/outreach/climate-md/",
+    "pages": 5,
+    "pdfBytes": 2232758,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 8
+  },
+  {
+    "slug": "climate-creators-to-watch-changing-the-narrative-online",
+    "title": "Climate Creators to Watch: Changing the Narrative Online",
+    "summary": "Young people increasingly learn about climate change on social media, where misinformation and doom-and-gloom messages spread easily. Harvard Chan C-CHANGE and the climate media company Pique Action curate an annual list of Climate Creators to Watch: scientists, educators, and activists whose educational and entertaining content counters misinformation and helps people focus on solutions.",
+    "topics": [
+      "Communication & education"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/outreach/climate-creators-to-watch/",
+    "pages": 5,
+    "pdfBytes": 2227530,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students.",
+    "imageTile": 9
+  },
+  {
+    "slug": "averages-vs-extremes-rethinking-climate-health-and-weather",
+    "title": "Averages vs. Extremes: Rethinking Climate Health and Weather",
+    "summary": "In 2016, a study in Nature argued that weather had become more pleasant for 80% of Americans over four decades, because winters grew milder while summers did not get much worse. Climate scientist Kevin Trenberth disagreed. He argued that looking at averages hides what matters most for health and safety: extremes such as heat waves, droughts, wildfires, floods, and storm surges.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AAI.sx45kwajh",
+    "pages": 6,
+    "pdfBytes": 3900678,
+    "image": "img/curriculum-graphics/lesson-graphic-f32bb4d194a5.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "youth-summit-on-climate-science-medicine-health-a-curriculum-module",
+    "title": "Youth Summit on Climate Science, Medicine, & Health: A Curriculum Module",
+    "summary": "Each summer, Harvard Chan C-CHANGE and Putney Pre-College bring high school students from around the world to Boston for a week-long Youth Summit on Climate Science, Medicine, and Health. Through workshops, field activities, and meetings with scientists, health and policy experts, and energy innovators, students learn to become climate and health leaders in their own communities.",
+    "topics": [
+      "Health & well-being",
+      "Communication & education"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/education/youth-summit-on-climate-equity-and-health/",
+    "pages": 5,
+    "pdfBytes": 3241758,
+    "image": "img/curriculum-graphics/lesson-graphic-938e495e1af0.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climate-change-and-allergies-how-warming-temperatures-amplify-pollen-seasons",
+    "title": "Climate Change and Allergies: How Warming Temperatures Amplify Pollen Seasons",
+    "summary": "Warmer temperatures and rising carbon dioxide from burning fossil fuels are making pollen seasons longer and more intense. This lesson, based on a Harvard Chan C-CHANGE guide for families, explains how climate change is worsening hay fever and allergy-triggered asthma in children, what the research shows about pollen trends, and practical steps to reduce exposure.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/climate-kids-and-health/allergies/",
+    "pages": 5,
+    "pdfBytes": 2617351,
+    "image": "img/curriculum-graphics/lesson-graphic-c2680b85ac0e.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "asthma-and-air-pollution-protecting-children-s-health",
+    "title": "Asthma and Air Pollution: Protecting Children's Health",
+    "summary": "Nearly 1 in 10 American children has asthma. Air pollution from vehicles, power plants, and wildfires can increase a child's risk of developing asthma and can trigger attacks, and climate change is making several of these triggers worse. This lesson, based on a Harvard Chan C-CHANGE guide, explores the evidence and why children are especially vulnerable.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/climate-kids-and-health/asthma/",
+    "pages": 5,
+    "pdfBytes": 2102370,
+    "image": "img/curriculum-graphics/lesson-graphic-a08b916630a5.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unpacking-climate-projections-physics-models-and-the-future",
+    "title": "Unpacking Climate Projections: Physics, Models, and the Future",
+    "summary": "In 2017, a U.S. congressional committee chairman claimed that predicting climate far into the future is impossible and not credible science. Climate scientists Kevin Trenberth and Reto Knutti responded by explaining how climate models work, why they rely on the laws of physics, and why projections about the future are sound, transparent, and useful for decisions.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AAI.scydsux5h",
+    "pages": 6,
+    "pdfBytes": 7708690,
+    "image": "img/curriculum-graphics/lesson-graphic-986486544c43.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climate-air-quality-and-the-developing-brain-protecting-youth-health-and-cognition",
+    "title": "Climate, Air Quality, and the Developing Brain: Protecting Youth Health and Cognition",
+    "summary": "Climate change brings hotter temperatures and worse air pollution, and both can affect how children's brains develop and how well students learn. This lesson, based on a Harvard Chan C-CHANGE guide, reviews studies linking particle pollution to lower IQ scores and heat to lower test scores, and explores steps families and schools can take to protect young minds.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/climate-kids-and-health/brain-development/",
+    "pages": 5,
+    "pdfBytes": 2164848,
+    "image": "img/curriculum-graphics/lesson-graphic-7c3a79a92bc4.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "small-bodies-big-impacts-how-climate-change-threatens-children-s-health",
+    "title": "Small Bodies, Big Impacts: How Climate Change Threatens Children's Health",
+    "summary": "Kids are not little adults. Their bodies are still developing, they breathe faster, and they eat and drink more for their size, so climate change affects them more directly. Research shows children today will face around three times as many climate disasters as their grandparents. This lesson, based on a Harvard Chan C-CHANGE guide, explores how heat, air pollution, disease, and disasters threaten children's health.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/climate-kids-and-health/childrens-health/",
+    "pages": 5,
+    "pdfBytes": 2247439,
+    "image": "img/curriculum-graphics/lesson-graphic-e1fcd0868b71.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "global-climate-policy-and-international-cooperation-analyzing-the-paris-accord",
+    "title": "Global Climate Policy and International Cooperation: Analyzing the Paris Accord",
+    "summary": "On June 1, 2017, President Donald Trump announced that the United States would withdraw from the Paris climate agreement. The Conversation assembled a panel of experts to analyze the decision. This lesson uses their perspectives, from a climate scientist, a business scholar, an Earth scientist, and an agriculture specialist, to explore how international climate agreements work and who is affected when a major country leaves.",
+    "topics": [
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AAI.ujeax46mw",
+    "pages": 5,
+    "pdfBytes": 3217517,
+    "image": "img/curriculum-graphics/lesson-graphic-e57aac50087e.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climate-equity-and-child-health-unpacking-environmental-disparities",
+    "title": "Climate Equity and Child Health: Unpacking Environmental Disparities",
+    "summary": "Climate change affects every child's health, but not equally. Children in low-wealth communities, children of color, and children with chronic illnesses often face more pollution, more heat, and fewer resources to recover from disasters, largely because of a history of systemic racism and policies like redlining. This lesson, based on a Harvard Chan C-CHANGE guide, explores these disparities and the climate solutions that can reduce them.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/climate-kids-and-health/equity/",
+    "pages": 5,
+    "pdfBytes": 2250210,
+    "image": "img/curriculum-graphics/lesson-graphic-53b25b03e79c.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unpacking-the-heat-how-global-energy-imbalance-fuels-wildfires",
+    "title": "Unpacking the Heat: How Global Energy Imbalance Fuels Wildfires",
+    "summary": "Does climate change cause wildfires? Climate scientist Kevin Trenberth says that is the wrong question. Fires are usually started by people or lightning, but global warming loads the dice by adding extra heat that dries out land and plants. This lesson explains Earth's energy imbalance, where the extra heat goes, and how scientists think about attributing extreme events to climate change.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://doi.org/10.64628/AAI.h3xhvwcfm",
+    "pages": 6,
+    "pdfBytes": 3618146,
+    "image": "img/curriculum-graphics/lesson-graphic-9ead8c7dc94d.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "extreme-heat-health-equity-and-student-well-being",
+    "title": "Extreme Heat, Health Equity, and Student Well-being",
+    "summary": "Hotter temperatures are more than uncomfortable: they can make children seriously ill. This lesson, based on a Harvard Chan C-CHANGE guide, explains what heat-related illness is, why climate change is bringing more dangerous hot days, which children face the greatest risk, and how families, schools, and coaches can keep young people safe.",
+    "topics": [
+      "Health & well-being"
+    ],
+    "sourceUrl": "https://hsph.harvard.edu/research/climate-health-c-change/climate-kids-and-health/heat-and-health/",
+    "pages": 5,
+    "pdfBytes": 2086086,
+    "image": "img/curriculum-graphics/lesson-graphic-9250a6dc62f0.png",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unpacking-earth-s-energy-imbalance-cumulative-shifts-in-climate-health",
+    "title": "Unpacking Earth's Energy Imbalance: Cumulative Shifts in Climate Health",
+    "summary": "Climate change can sound small: another tenth of a degree, another centimeter of sea level. But in 2021, climate scientist Kevin Trenberth explained that these small changes accumulate relentlessly. Earth is trapping about 460 terawatts of extra energy, far more than all the energy humans use. This lesson follows that energy into the oceans, ice, land, and atmosphere, and explains why risks rise faster than a straight line.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/climate-change-is-relentless-seemingly-small-shifts-have-big-consequences-166139",
+    "pages": 6,
+    "pdfBytes": 3845275,
+    "image": "img/curriculum-graphics/lesson-graphic-7072af50c131.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "stemming-methane-a-fast-lane-for-climate-health",
+    "title": "Stemming Methane: A Fast Lane for Climate Health",
+    "summary": "Carbon dioxide and methane are the two greenhouse gases that contribute most to global heating. Methane traps heat more powerfully than carbon dioxide but breaks down much faster, so cutting it can slow warming within years rather than decades. This lesson examines where methane comes from, how much of it could be cut by 2030, and how satellites are helping countries find leaks that go unreported.",
+    "topics": [
+      "Health & well-being",
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://theconversation.com/stemming-methane-leaks-from-oil-fields-pipelines-and-landfills-could-help-us-slow-global-warming-quickly-171839",
+    "pages": 6,
+    "pdfBytes": 2653350,
+    "image": "img/curriculum-graphics/lesson-graphic-2d64e280f05e.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "tracking-record-ocean-heat-and-extreme-weather",
+    "title": "Tracking Record Ocean Heat and Extreme Weather",
+    "summary": "In 2021, the world's oceans were hotter than ever recorded, even though surface air temperatures ranked only fifth or sixth warmest. In an interview, climate scientist Kevin Trenberth, a coauthor of a 2022 study by 23 researchers at 14 institutes, explained why ocean heat is a better measure of global warming and how it supercharged storms, floods, heat waves, and wildfires.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/ocean-heat-is-at-record-levels-with-major-consequences-174760",
+    "pages": 6,
+    "pdfBytes": 12690305,
+    "image": "img/curriculum-graphics/lesson-graphic-128c434bb785.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "atmospheric-arithmetic-evaluating-climate-mitigation-strategies",
+    "title": "Atmospheric Arithmetic: Evaluating Climate Mitigation Strategies",
+    "summary": "When politicians promise net-zero emissions, they often count on trees or technology to pull carbon dioxide out of the air. In 2022, climate scientist Kevin Trenberth did the math. He showed that removing just 1 part per million of carbon dioxide would cost hundreds of billions of dollars, and concluded that there is no viable workaround to cutting fossil fuel emissions.",
+    "topics": [
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://theconversation.com/how-not-to-solve-the-climate-change-problem-187222",
+    "pages": 6,
+    "pdfBytes": 7443760,
+    "image": "img/curriculum-graphics/lesson-graphic-12d64a577b04.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "supercharged-summers-understanding-2022-s-climate-extremes",
+    "title": "Supercharged Summers: Understanding 2022's Climate Extremes",
+    "summary": "The Northern Hemisphere summer of 2022 brought disaster after disaster: record heat in India and Pakistan, floods covering a third of Pakistan, drought and wildfires in Europe, and rivers running dry in China and the U.S. Climate scientist Kevin Trenberth explained how global warming accelerates the water cycle, making wet areas wetter and dry areas drier, and how La Niña shaped where extremes struck.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/2022s-supercharged-summer-of-climate-extremes-how-global-warming-and-la-nina-fueled-disasters-on-top-of-disasters-190546",
+    "pages": 6,
+    "pdfBytes": 4881490,
+    "image": "img/curriculum-graphics/lesson-graphic-e2db654f9fbd.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unpacking-methane-livestock-fossil-fuels-and-climate-policy",
+    "title": "Unpacking Methane: Livestock, Fossil Fuels, and Climate Policy",
+    "summary": "In 2023, New Zealand proposed taxing the methane that cows burp. Climate scientist Kevin Trenberth asked whether methane from cows is really as harmful as methane from fossil fuels. His answer depends on where the carbon comes from and how long it lasts, and it has big implications for how countries design climate policies to reach net zero.",
+    "topics": [
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://theconversation.com/why-taxing-cow-burps-isnt-the-best-climate-solution-199464",
+    "pages": 5,
+    "pdfBytes": 2693476,
+    "image": "img/curriculum-graphics/lesson-graphic-b2feb61b3fe5.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "understanding-enso-el-ni-o-climate-health-and-global-weather-extremes",
+    "title": "Understanding ENSO: El Niño, Climate Health, and Global Weather Extremes",
+    "summary": "In June 2023, NOAA declared that El Niño had arrived, ending three years of La Niña. Climate scientist Kevin Trenberth explained how the tropical Pacific's ocean and atmosphere interact, what El Niño means for New Zealand and the world, and why global warming makes all of El Niño's impacts, from droughts to floods, more severe.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/el-nino-combined-with-global-warming-means-big-changes-for-new-zealands-weather-207493",
+    "pages": 6,
+    "pdfBytes": 6391705,
+    "image": "img/curriculum-graphics/lesson-graphic-72f9e7db9b83.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climbing-the-climate-staircase-how-natural-cycles-and-greenhouse-gases-shape-global-temperatures",
+    "title": "Climbing the Climate Staircase: How Natural Cycles and Greenhouse Gases Shape Global Temperatures",
+    "summary": "In mid-2023, climate records were falling everywhere: the highest daily global temperatures ever measured, record sea surface temperatures, and record-low Antarctic sea ice. Climate scientist Kevin Trenberth explained that global temperatures climb in steps, usually at the end of El Niño events, and predicted that 2023 and 2024 would take the next big step up the staircase.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/global-temperature-rises-in-steps-heres-why-we-can-expect-a-steep-climb-this-year-and-next-209385",
+    "pages": 6,
+    "pdfBytes": 2818036,
+    "image": "img/curriculum-graphics/lesson-graphic-680ba3fc4304.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "beyond-renewable-electricity-comprehensive-climate-strategies-for-remote-economies",
+    "title": "Beyond Renewable Electricity: Comprehensive Climate Strategies for Remote Economies",
+    "summary": "In 2023, New Zealand's government partnered with investment manager BlackRock on a NZ$2 billion renewable energy fund. Climate scientist Kevin Trenberth argued that private investment in renewable electricity is essential but not enough. As an isolated country that depends on shipping, flights, exports, and tourism, New Zealand needs a comprehensive strategy. He proposed ten areas to address.",
+    "topics": [
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://theconversation.com/meeting-the-long-term-climate-threat-takes-more-than-private-investment-10-ways-nz-can-be-smart-and-strategic-211100",
+    "pages": 6,
+    "pdfBytes": 3876289,
+    "image": "img/curriculum-graphics/lesson-graphic-e4bd9dddbd80.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "amplifying-heat-how-water-vapour-drives-climate-feedback",
+    "title": "Amplifying Heat: How Water Vapour Drives Climate Feedback",
+    "summary": "Water vapour is Earth's most important greenhouse gas, yet it is not what is driving today's warming. In 2023, climate scientist Kevin Trenberth explained the water vapour feedback: carbon dioxide and other long-lived gases warm the atmosphere, warmer air holds more water vapour, and that extra vapour traps more heat, amplifying warming and making extreme weather worse.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/how-rising-water-vapour-in-the-atmosphere-is-amplifying-warming-and-making-extreme-weather-worse-213347",
+    "pages": 6,
+    "pdfBytes": 2746210,
+    "image": "img/curriculum-graphics/lesson-graphic-0ac6eaaf0b43.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "unlocking-ocean-heat-how-warm-seas-fuel-extreme-floods",
+    "title": "Unlocking Ocean Heat: How Warm Seas Fuel Extreme Floods",
+    "summary": "In early 2026, heavy rain again soaked Northland, Auckland, and the Coromandel in New Zealand, triggering floods and road closures. Climate scientist Kevin Trenberth explained how record ocean heat, which in 2025 rose by an amount equal to more than 200 times the world's annual electricity use, loads the atmosphere with moisture and energy, fueling atmospheric rivers, storms, and marine heat waves.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/nz-is-again-being-soaked-this-summer-record-ocean-heat-helps-explain-it-274013",
+    "pages": 5,
+    "pdfBytes": 2292418,
+    "image": "img/curriculum-graphics/lesson-graphic-b305683faa33.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "beyond-the-thermometer-how-humidity-and-dew-point-shape-climate-health",
+    "title": "Beyond the Thermometer: How Humidity and Dew Point Shape Climate Health",
+    "summary": "Weather forecasts focus on temperature, but humidity can matter just as much for comfort and health. During northern New Zealand's wet, sticky summer of 2026, climate scientist Kevin Trenberth explained why the dew point is a better measure of humidity than relative humidity, how humid air limits the body's cooling, and why rising moisture is a warning sign of a warming atmosphere.",
+    "topics": [
+      "Health & well-being",
+      "Climate science"
+    ],
+    "sourceUrl": "https://theconversation.com/what-northern-nzs-wet-and-sticky-summer-reveals-about-our-warming-atmosphere-276157",
+    "pages": 5,
+    "pdfBytes": 2567127,
+    "image": "img/curriculum-graphics/lesson-graphic-132d5fa4bc2a.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "climate-health-and-geological-hazards-understanding-landslides",
+    "title": "Climate Health and Geological Hazards: Understanding Landslides",
+    "summary": "In January 2026, heavy rain triggered deadly landslides on New Zealand's North Island, including one at a busy campground. ABC News asked climate scientist Kevin Trenberth and emergency management expert Lauren Vinnell to explain how landslides happen, the warning signs to watch for, where they are most common, and how climate change is increasing the risk.",
+    "topics": [
+      "Climate science"
+    ],
+    "sourceUrl": "https://www.abc.net.au/news/2026-01-23/how-landslides-happen-and-where-they-are-most-common/106261240",
+    "pages": 5,
+    "pdfBytes": 2227194,
+    "image": "img/curriculum-graphics/lesson-graphic-9aa3fc93f709.jpg",
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "powering-the-future-domestic-renewables-versus-carbon-offsets",
+    "title": "Powering the Future: Domestic Renewables Versus Carbon Offsets",
+    "summary": "Before the COP26 climate summit, New Zealand raised its pledge to cut greenhouse gas emissions to 50% below 2005 levels by 2030, but planned to buy about two-thirds of those cuts as overseas carbon credits. Climate scientist Kevin Trenberth argued the country should instead cut its own emissions, using rooftop solar, wind, and pumped hydro storage, and remove barriers that discourage homeowners from generating clean power.",
+    "topics": [
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://www.newsroom.co.nz/kevin-trenberth-cut-emissions-dont-buy-overseas-offsets",
+    "pages": 5,
+    "pdfBytes": 2162416,
+    "image": "img/curriculum-graphics/lesson-graphic-632f1adf0237.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "navigating-global-climate-change-science-emissions-and-international-policy",
+    "title": "Navigating Global Climate Change: Science, Emissions, and International Policy",
+    "summary": "We are all passengers on spaceship Earth, but there is no captain. After the COP26 climate summit in 2021, climate scientist Kevin Trenberth reflected on what the latest science says, why international cooperation has fallen short, and what role a small country like New Zealand can play in slowing climate change.",
+    "topics": [
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://www.newsroom.co.nz/whats-nzs-role-on-spaceship-earth",
+    "pages": 5,
+    "pdfBytes": 2369398,
+    "image": "img/curriculum-graphics/lesson-graphic-8cc88202740d.jpg",
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, scientific concepts, and classroom activity. Teachers can adapt the lesson for their students."
+  },
+  {
+    "slug": "mapping-floods-community-knowledge-and-drone-imagery",
+    "title": "Mapping Floods: Community Knowledge and Drone Imagery",
+    "summary": "Researchers and residents in Coulibistrie, Dominica, combine drone imagery with local experience to map flood risks, safe places, and evacuation routes. Students design a coastal-town risk map and choose preparedness measures within a five-point planning budget.",
+    "topics": [
+      "Community resilience"
+    ],
+    "sourceUrl": "https://storymaps.arcgis.com/stories/1b49c1a74cab42b8b7897044cf8501d2",
+    "sourceCitation": "",
+    "pages": 4,
+    "pdfBytes": 16762753,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "imageTile": 11,
+    "grades": [
+      "3-5",
+      "6-8"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, vocabulary, and classroom activity. Younger students may benefit from teacher-guided reading."
+  },
+  {
+    "slug": "when-earth-moves-modeling-earthquakes-and-tsunamis",
+    "title": "When Earth Moves: Modeling Earthquakes and Tsunamis",
+    "summary": "Explore how an underwater earthquake can move the seafloor and generate tsunami waves. Using a modeled earthquake scenario near Ventura, California, this lesson examines how ocean depth and coastline shape affect wave travel. Students build and modify a miniature coastline to investigate wave impacts.",
+    "topics": [
+      "Earth science & hazards",
+      "Community resilience"
+    ],
+    "sourceUrl": "https://doi.org/10.1002/2015GL064507",
+    "sourceCitation": "Ryan, K. J., Geist, E. L., Barall, M., & Oglesby, D. D. (2015). Dynamic models of an earthquake and tsunami offshore Ventura, California. Geophysical Research Letters, 42.",
+    "pages": 4,
+    "pdfBytes": 16540774,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "imageTile": 12,
+    "grades": [
+      "3-5",
+      "6-8"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, vocabulary, and classroom activity. Younger students may benefit from teacher-guided reading."
+  },
+  {
+    "slug": "rivers-mystery-limit-flood-tipping-points-in-philadelphia",
+    "title": "River’s Mystery Limit: Flood Tipping Points in Philadelphia",
+    "summary": "Investigate why the remnants of Hurricane Ida caused severe flooding along Philadelphia’s Schuylkill River in 2021. The lesson introduces computer flood modeling, saturated soil, paved surfaces, and flood tipping points. Students draw a river city and propose ways to protect important places during a major storm.",
+    "topics": [
+      "Community resilience",
+      "Earth science & hazards"
+    ],
+    "sourceUrl": "",
+    "sourceCitation": "Xuan, D., Hsieh, M. A., Pongeluppe, L. S., Weaver, M. M., Mann, M. E., Jerolmack, D. J., & Ulloa, H. N. (2026). Climate extremes and urbanization drive flood tipping points at the city–river interface. npj Natural Hazards, 3, Article 20.",
+    "pages": 4,
+    "pdfBytes": 18192306,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "imageTile": 13,
+    "grades": [
+      "6-8",
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, vocabulary, and classroom activity. Younger students may benefit from teacher-guided reading."
+  },
+  {
+    "slug": "geoengineering-ecosystem-impacts-and-climate-solutions",
+    "title": "Geoengineering: Ecosystem Impacts and Climate Solutions",
+    "summary": "Compare carbon dioxide removal and solar radiation management, including afforestation, carbon capture, ocean fertilization, and changes to cloud reflectivity. This reading examines possible ecosystem effects, governance questions, and the research needed to evaluate proposed interventions. A glossary supports the scientific vocabulary.",
+    "topics": [
+      "Climate science",
+      "Energy & policy"
+    ],
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3393062/#Sec7",
+    "sourceCitation": "Adapted from Russell, L. M., et al. (2012), “Ecosystem impacts of geoengineering.”",
+    "pages": 9,
+    "pdfBytes": 14712922,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "imageTile": 14,
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "suggested",
+    "gradeNote": "Suggested teaching range based on the reading, vocabulary, and classroom activity. Younger students may benefit from teacher-guided reading."
+  },
+  {
+    "slug": "could-plastic-pollution-be-making-climate-change-worse",
+    "title": "Could Plastic Pollution Be Making Climate Change Worse?",
+    "summary": "Examine the connections between plastics and climate change through greenhouse gas emissions, carbon storage, and Earth’s radiation budget. Adapted for high school, this reading summarizes a review of 143 studies and includes data tables, a glossary, and discussion questions about production, disposal, and alternatives to single-use plastics.",
+    "topics": [
+      "Climate science",
+      "Energy & policy"
+    ],
+    "sourceUrl": "",
+    "sourceCitation": "The curriculum summarizes a systematic review by Xia Zhu, Justin Konik, and Holly Kaufman. Study details and reading questions are included in the PDF.",
+    "pages": 8,
+    "pdfBytes": 4474819,
+    "image": "img/curriculum-graphics/generated-curriculum-atlas.png",
+    "imageTile": 15,
+    "grades": [
+      "9-12"
+    ],
+    "gradeBasis": "explicit",
+    "gradeNote": "The PDF explicitly states that it is adapted for high school."
+  }
+]
