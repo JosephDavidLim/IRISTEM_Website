@@ -760,6 +760,11 @@ input {
     gap: 24px;
 }
 
+.work__actions {
+    margin-top: 32px;
+    text-align: center;
+}
+
 .work-card {
     position: relative;
     display: flex;
