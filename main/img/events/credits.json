@@ -1,0 +1,24 @@
+{
+  "baycs": {
+    "event": "Bay Area Youth Climate Summit",
+    "date": "2026-09-27",
+    "source": "https://www.baycs.org/2026-summit",
+    "images": [
+      "baycs-presentation",
+      "baycs-workshop",
+      "baycs-discussion"
+    ],
+    "credit": "ProBonoPhoto.org",
+    "creditUrl": "https://www.probonophoto.org/",
+    "provenance": "User-supplied images; organizational credit requested by user. Individual photographer name not supplied. Images 3 and 4 are duplicates."
+  },
+  "creec": {
+    "event": "CREEC Central Fall Conference",
+    "date": "2026-09-26",
+    "source": "https://sites.google.com/sjcoe.net/centralcacelp/creec-central-fall-conference-2026",
+    "images": [
+      "creec-classroom-session"
+    ],
+    "provenance": "User-supplied screenshot of IRISTEM virtual conference presentation."
+  }
+}

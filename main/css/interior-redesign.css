@@ -1972,3 +1972,46 @@ a:focus {
         animation-iteration-count: 1 !important;
     }
 }
+
+/* Contextual routes from programs and research stories into the lesson library. */
+.curriculum-context-link {
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.curriculum-library-entry {
+    margin: -12px 0 36px;
+    text-align: center;
+}
+.curriculum-related {
+    margin-top: 36px;
+    padding: 28px;
+    border-left: 4px solid var(--hybrid-forest);
+    background: var(--hybrid-paper-deep);
+}
+.single-content .curriculum-related h2 {
+    margin-top: 0;
+}
+.curriculum-related .btn {
+    max-width: 100%;
+    white-space: normal;
+}
+@media (max-width: 575px) {
+    .curriculum-related { padding: 20px; }
+}
+
+/* Attribution for summit photography reused throughout the site. */
+.summit-photo-credit {
+    display: block;
+    margin: 12px 0 0;
+    color: #315746;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.5;
+}
+.summit-photo-credit a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}

@@ -1750,3 +1750,30 @@ input {
         gap: 28px;
     }
 }
+
+/* Credits stay within the supplied summit photos, above overlapping frames. */
+.photo-stack__image .summit-presentation-photo {
+    object-position: 63% center;
+}
+.work-card__media {
+    position: relative;
+}
+.photo-attribution {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    max-width: calc(100% - 24px);
+    z-index: 1;
+    padding: 4px 7px;
+    background: rgba(7, 40, 30, .9);
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    font-style: normal;
+}
+.photo-attribution a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
